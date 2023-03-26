@@ -1,0 +1,156 @@
+.pinkNgold{
+  $normal-color: #333;
+  $base-color:#FFF4F2;
+  $second-color:#FFE1E3;
+  $third-color:#F1BCAE;
+  $point-color: #DFB669;
+  .nav-wrap{
+    .nav-logo{
+      > a{
+        color: $normal-color;
+      }
+    }
+    .nav-list{
+      li{
+        .nav-btn{
+          color: $normal-color;
+        }
+        .nav-btn-on{
+          color: $point-color;
+        }
+      }
+    }
+  }
+  .intro-wrap{
+    background: $base-color;
+    .intro-back-rect{
+      background: $second-color;
+    }
+    .intro-inner{
+      .intro-back-text{
+        -webkit-text-stroke: 1px $third-color;
+        -webkit-text-fill-color: transparent;  
+      }
+      .intro-contents{
+        .intro-slogan{
+          color: $point-color;
+        }
+        .intro-photo{
+          &-line{
+            border: 1px solid $point-color;
+          }
+        }
+      }
+      .intro-bottom{
+        border-top:1px solid $normal-color;
+        .linklist-btn{
+          color: $normal-color;
+        }
+      }
+    }
+  }
+}
+
+.beigeNblue{
+  $normal-color: #255B8A;
+  $base-color:#F3F0DF;
+  $second-color:#EBE7CF;
+  $point-color: #E17858;
+  .nav-wrap{
+    .nav-logo{
+      > a{
+        color: $normal-color;
+      }
+    }
+    .nav-list{
+      li{
+        .nav-btn{
+          color: $normal-color;
+        }
+        .nav-btn-on{
+          color: $point-color;
+        }
+      }
+    }
+  }
+  .intro-wrap{
+    background: $base-color;
+    .intro-back-rect{
+      background: $second-color;
+    }
+    .intro-inner{
+      .intro-back-text{
+        -webkit-text-stroke: 1px $normal-color;
+        -webkit-text-fill-color: transparent;  
+      }
+      .intro-contents{
+        .intro-slogan{
+          color: $normal-color;
+        }
+        .intro-photo{
+          &-line{
+            border: 1px solid $point-color;
+          }
+        }
+      }
+      .intro-bottom{
+        border-top:1px solid $normal-color;
+        .linklist-btn{
+          color: $normal-color;
+        }
+      }
+    }
+  }
+}
+
+.deepGreen{
+  $normal-color: #5D633F;
+  $base-color:#F9F8F6;
+  $second-color:#F1EEEB;
+  $point-color: #DB874B;
+  .nav-wrap{
+    .nav-logo{
+      > a{
+        color: $normal-color;
+      }
+    }
+    .nav-list{
+      li{
+        .nav-btn{
+          color: $normal-color;
+        }
+        .nav-btn-on{
+          color: $point-color;
+        }
+      }
+    }
+  }
+  .intro-wrap{
+    background: $base-color;
+    .intro-back-rect{
+      background: $second-color;
+    }
+    .intro-inner{
+      .intro-back-text{
+        -webkit-text-stroke: 1px $normal-color;
+        -webkit-text-fill-color: transparent;  
+      }
+      .intro-contents{
+        .intro-slogan{
+          color: $normal-color;
+        }
+        .intro-photo{
+          &-line{
+            border: 1px solid $point-color;
+          }
+        }
+      }
+      .intro-bottom{
+        border-top:1px solid $normal-color;
+        .linklist-btn{
+          color: $normal-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "utility";
+
+.nav-wrap{
+  @include flexCenter;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 2%;
+  z-index: 999;
+  .nav-logo{
+    > a{
+      font-size: 21px;
+      font-weight: 900;
+    }
+  }
+  .nav-list{
+    @include flexCenter;
+    width: 25%;
+    li{
+      .nav-btn{
+        font-weight: 600;
+      }
+    }
+  }
+}
