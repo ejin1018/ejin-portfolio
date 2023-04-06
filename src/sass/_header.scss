@@ -12,14 +12,17 @@
   z-index: 999;
   .nav-logo{
     > a{
-      font-size: 21px;
+      font-size: 1.313rem;
       font-weight: 900;
     }
   }
   .nav-list{
     @include flexBetween;
-    width: 25%;
     li{
+      margin-right: 1.5rem;
+      &:last-child{
+        margin-right: 0;
+      }
       .nav-btn{
         font-weight: 600;
       }

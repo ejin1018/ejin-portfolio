@@ -1,8 +1,7 @@
 .pinkNgold{
-  $normal-color: #333;
+  $normal-color: #F1BCAE;
   $base-color:#FFF4F2;
   $second-color:#FFE1E3;
-  $third-color:#F1BCAE;
   $point-color: #DFB669;
 
   background: $base-color;
@@ -31,7 +30,7 @@
     }
     .intro-inner{
       .intro-back-text{
-        -webkit-text-stroke: 1px $third-color;
+        -webkit-text-stroke: 1px $normal-color;
         -webkit-text-fill-color: transparent;  
       }
       .intro-contents{
@@ -51,18 +50,28 @@
   }
 
   .abilities-wrap{
-    .abibox-title-back{
-      color: $second-color;
-      transition: all .3s;
-      &:hover{
-        -webkit-text-stroke: 1px $point-color;
-        -webkit-text-fill-color: transparent;          
+    .abibox-title{
+      .abibox-title-back{
+        color: $second-color;
+        transition: all .3s;
+        &:hover{
+          -webkit-text-stroke: 1px $point-color;
+          -webkit-text-fill-color: transparent;          
+        }
+      }
+      .abibox-icon-list{
+        li{
+          svg{
+            fill:$point-color;
+          }
+        }
       }
     }
-    .abibox-icon-list{
-      li{
-        svg{
-          fill:$normal-color;
+    .abibox-content{
+      margin-top: 1.563rem;
+      &-info{
+        .abibox-content-program{
+          color: $normal-color;
         }
       }
     }
@@ -118,6 +127,33 @@
       }
     }
   }
+  .abilities-wrap{
+    .abibox-title{
+      .abibox-title-back{
+        color: $second-color;
+        transition: all .3s;
+        &:hover{
+          -webkit-text-stroke: 1px $point-color;
+          -webkit-text-fill-color: transparent;          
+        }
+      }
+      .abibox-icon-list{
+        li{
+          svg{
+            fill:$normal-color;
+          }
+        }
+      }
+    }
+    .abibox-content{
+      margin-top: 1.563rem;
+      &-info{
+        .abibox-content-program{
+          color: $normal-color;
+        }
+      }
+    }
+  }
 }
 
 .deepGreen{
@@ -165,6 +201,33 @@
               color: $normal-color;
             }
           }
+        }
+      }
+    }
+  }
+  .abilities-wrap{
+    .abibox-title{
+      .abibox-title-back{
+        color: $second-color;
+        transition: all .3s;
+        &:hover{
+          -webkit-text-stroke: 1px $point-color;
+          -webkit-text-fill-color: transparent;          
+        }
+      }
+      .abibox-icon-list{
+        li{
+          svg{
+            fill:$normal-color;
+          }
+        }
+      }
+    }
+    .abibox-content{
+      margin-top: 1.563rem;
+      &-info{
+        .abibox-content-program{
+          color: $normal-color;
         }
       }
     }

@@ -58,14 +58,19 @@ a {
   z-index: 999;
 }
 .nav-wrap .nav-logo > a {
-  font-size: 21px;
+  font-size: 1.313rem;
   font-weight: 900;
 }
 .nav-wrap .nav-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 25%;
+}
+.nav-wrap .nav-list li {
+  margin-right: 1.5rem;
+}
+.nav-wrap .nav-list li:last-child {
+  margin-right: 0;
 }
 .nav-wrap .nav-list li .nav-btn {
   font-weight: 600;
@@ -104,7 +109,7 @@ a {
 }
 .intro-wrap .intro-back-rect {
   width: 75%;
-  height: 900px;
+  height: 56rem;
   position: absolute;
   top: -43%;
   right: 0%;
@@ -121,7 +126,7 @@ a {
   position: absolute;
   top: -7%;
   left: 0%;
-  font-size: 125px;
+  font-size: 7.8rem;
   font-weight: 900;
   transform: skewY(-7deg);
   color: transparent;
@@ -140,26 +145,26 @@ a {
   position: relative;
   top: 0;
   left: 0;
-  font-size: 42px;
+  font-size: 2.6rem;
   line-height: 1.2;
   transform: skewY(-7deg);
 }
 .intro-wrap .intro-inner .intro-slogan .qmark-l {
   position: absolute;
-  top: -10px;
-  left: -28px;
+  top: -0.625rem;
+  left: -1.75rem;
 }
 .intro-wrap .intro-inner .intro-slogan .qmark-r {
   position: absolute;
-  bottom: 60px;
-  right: -28px;
+  bottom: 3.75rem;
+  right: -1.75rem;
 }
 .intro-wrap .intro-inner .intro-photo {
   position: relative;
   top: 0;
   left: 0;
-  width: 360px;
-  height: 480px;
+  width: 22.5rem;
+  height: 30rem;
 }
 .intro-wrap .intro-inner .intro-photo > div {
   position: absolute;
@@ -168,8 +173,8 @@ a {
 }
 .intro-wrap .intro-inner .intro-photo-back {
   background: #fff;
-  top: -20px;
-  right: -20px;
+  top: -1.25rem;
+  right: -1.25rem;
 }
 .intro-wrap .intro-inner .intro-photo-ejin {
   top: 0;
@@ -177,13 +182,13 @@ a {
   background-size: cover;
 }
 .intro-wrap .intro-inner .intro-photo-line {
-  top: 20px;
-  right: 20px;
+  top: 1.25rem;
+  right: 1.25rem;
 }
 .intro-wrap .intro-inner .intro-photo-line .line-bottom-linklist {
   position: absolute;
   right: 0;
-  bottom: -20px;
+  bottom: -1.25rem;
   right: 0;
   display: flex;
 }
@@ -191,13 +196,13 @@ a {
   margin-right: 0;
 }
 .intro-wrap .intro-inner .intro-photo-line .line-bottom-linklist .linklist-btn {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .intro-wrap .intro-inner .intro-bottom {
   position: absolute;
-  bottom: 20px;
+  bottom: 1.25rem;
   left: 0;
   width: 100%;
   display: flex;
@@ -210,12 +215,12 @@ a {
   justify-content: space-between;
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-btns .pinkNgold {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   color: #DFB669;
   background: #FFF4F2;
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-btns .beigeNblue {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   color: #255B8A;
   background: #EBE7CF;
 }
@@ -225,12 +230,12 @@ a {
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-btns .colorTheme-btn {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   border-radius: 50%;
-  line-height: 30px;
+  line-height: 1.875rem;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
@@ -268,26 +273,43 @@ a {
 .abilities-wrap .abilities-inner .abilities-box {
   width: 30%;
 }
+.abilities-wrap .abilities-inner .abilities-box .abibox-title {
+  position: relative;
+  top: 0;
+  left: 0;
+}
 .abilities-wrap .abilities-inner .abilities-box .abibox-title-back {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
   text-align: center;
-  font-size: 5.3rem;
+  font-size: 5rem;
   font-weight: 900;
-  transform: skewY(-7deg);
+  transform: skewY(-7deg) translateX(-50%);
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list {
+  position: relative;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+  z-index: 1;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list li {
-  width: 75px;
-  height: 75px;
+  width: 3.75rem;
+  height: 3.75rem;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-content {
-  margin-top: 25px;
-  background: wheat;
+  margin-top: 1.563rem;
+}
+.abilities-wrap .abilities-inner .abilities-box .abibox-content-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.625rem;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-content-info .abibox-content-program {
   display: inline-block;
@@ -297,19 +319,19 @@ a {
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-content-info .abibox-content-text {
   display: inline-block;
-  width: 70%;
+  width: 65%;
   word-break: keep-all;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .pinkNgold {
   background: #FFF4F2;
 }
 .pinkNgold .nav-wrap .nav-logo > a {
-  color: #333;
+  color: #F1BCAE;
 }
 .pinkNgold .nav-wrap .nav-list li .nav-btn {
-  color: #333;
+  color: #F1BCAE;
 }
 .pinkNgold .nav-wrap .nav-list li .nav-btn-on {
   color: #DFB669;
@@ -328,18 +350,24 @@ a {
   border: 1px solid #DFB669;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-photo-line .linklist-btn {
-  color: #333;
+  color: #F1BCAE;
 }
-.pinkNgold .abilities-wrap .abibox-title-back {
+.pinkNgold .abilities-wrap .abibox-title .abibox-title-back {
   color: #FFE1E3;
   transition: all 0.3s;
 }
-.pinkNgold .abilities-wrap .abibox-title-back:hover {
+.pinkNgold .abilities-wrap .abibox-title .abibox-title-back:hover {
   -webkit-text-stroke: 1px #DFB669;
   -webkit-text-fill-color: transparent;
 }
-.pinkNgold .abilities-wrap .abibox-icon-list li svg {
-  fill: #333;
+.pinkNgold .abilities-wrap .abibox-title .abibox-icon-list li svg {
+  fill: #DFB669;
+}
+.pinkNgold .abilities-wrap .abibox-content {
+  margin-top: 1.563rem;
+}
+.pinkNgold .abilities-wrap .abibox-content-info .abibox-content-program {
+  color: #F1BCAE;
 }
 
 .beigeNblue {
@@ -368,6 +396,23 @@ a {
   border: 1px solid #E17858;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-line .linklist-btn {
+  color: #255B8A;
+}
+.beigeNblue .abilities-wrap .abibox-title .abibox-title-back {
+  color: #EBE7CF;
+  transition: all 0.3s;
+}
+.beigeNblue .abilities-wrap .abibox-title .abibox-title-back:hover {
+  -webkit-text-stroke: 1px #E17858;
+  -webkit-text-fill-color: transparent;
+}
+.beigeNblue .abilities-wrap .abibox-title .abibox-icon-list li svg {
+  fill: #255B8A;
+}
+.beigeNblue .abilities-wrap .abibox-content {
+  margin-top: 1.563rem;
+}
+.beigeNblue .abilities-wrap .abibox-content-info .abibox-content-program {
   color: #255B8A;
 }
 
@@ -399,8 +444,28 @@ a {
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-line .linklist-btn {
   color: #5D633F;
 }
+.deepGreen .abilities-wrap .abibox-title .abibox-title-back {
+  color: #F1EEEB;
+  transition: all 0.3s;
+}
+.deepGreen .abilities-wrap .abibox-title .abibox-title-back:hover {
+  -webkit-text-stroke: 1px #DB874B;
+  -webkit-text-fill-color: transparent;
+}
+.deepGreen .abilities-wrap .abibox-title .abibox-icon-list li svg {
+  fill: #5D633F;
+}
+.deepGreen .abilities-wrap .abibox-content {
+  margin-top: 1.563rem;
+}
+.deepGreen .abilities-wrap .abibox-content-info .abibox-content-program {
+  color: #5D633F;
+}
 
 @media screen and (max-width: 1440px) {
+  html, body {
+    font-size: 15px !important;
+  }
   [class*=-inner] {
     max-width: 90%;
     margin: 0 auto;
@@ -408,10 +473,39 @@ a {
   .nav-wrap {
     width: 90%;
   }
-  .nav-wrap .nav-list {
-    width: 30%;
+  .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list {
+    width: 85%;
   }
-  .intro-wrap .intro-inner .intro-bottom-linklist {
-    width: 28%;
+  .abilities-wrap .abilities-inner .abilities-box .abibox-content-info {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .abilities-wrap .abilities-inner .abilities-box .abibox-content-info .abibox-content-program {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .abilities-wrap .abilities-inner .abilities-box .abibox-content-info .abibox-content-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 14px !important;
+  }
+  .abilities-wrap .abilities-inner {
+    flex-direction: column;
+  }
+  .abilities-wrap .abilities-inner .abilities-box {
+    width: 100%;
+  }
+  .abilities-wrap .abilities-inner .abilities-box .abibox-title-back {
+    text-align: left;
+  }
+  .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list {
+    width: 100%;
+    justify-content: start;
+  }
+  .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list li {
+    margin-right: 0.6rem;
   }
 }/*# sourceMappingURL=style.css.map */

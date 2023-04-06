@@ -1,19 +1,66 @@
 @media screen and (max-width:1440px) {
+  html,body{
+    font-size: 15px !important;
+  }
+
   [class*="-inner"]{
     max-width: 90%;
     margin: 0 auto;
   }
   .nav-wrap{
     width: 90%;
-    .nav-list{
-      width: 30%;
-    }
   }
-  .intro-wrap{
-    .intro-inner {
-      .intro-bottom-linklist{
-        width: 28%;
+
+  // abilities
+  .abilities-wrap{
+    .abilities-inner{
+      .abilities-box{
+        .abibox-title{
+          .abibox-icon-list{
+            width: 85%;
+          }
+        }
+        .abibox-content{
+          &-info{
+            flex-direction: column;
+            margin-bottom: 1rem;
+            .abibox-content-program{
+              width: 100%;
+              margin-bottom: 0.5rem;
+            }
+            .abibox-content-text{
+              width: 100%;
+            }
+          }
+        }
       }
     }
-  } 
+  }
+}
+@media screen and (max-width:768px) {
+  html,body{
+    font-size: 14px !important;
+  }
+
+  // abilities
+  .abilities-wrap{
+    .abilities-inner{
+      flex-direction: column;
+      .abilities-box{
+        width: 100%;
+        .abibox-title{
+          &-back{
+            text-align: left;
+          }
+          .abibox-icon-list{
+            width: 100%;
+            justify-content: start;
+            li{
+              margin-right: 0.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }

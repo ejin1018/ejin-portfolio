@@ -7,26 +7,36 @@
     .abilities-box{
       width: 30%;
       .abibox-title{
+        @include relativeZero;
         &-back{
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
           text-align: center;
-          font-size: 5.3rem;
+          font-size: 5rem;
           font-weight: 900;
-          transform: skewY(-7deg);
+          transform: skewY(-7deg) translateX(-50%);
+          
         }
         .abibox-icon-list{
+          @include relativeZero;
           @include flexBetween;
           width: 80%;
           margin: 0 auto;
+          z-index: 1;
           li{
-            width: 75px;
-            height: 75px;
+            width: 3.75rem;
+            height: 3.75rem;
           }
         }
       }
       .abibox-content{
-        margin-top: 25px;
-        background: wheat;
+        margin-top: 1.563rem;
         &-info{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-bottom: 0.625rem;
           .abibox-content-program{
             display: inline-block;
             width: 30%;
@@ -35,9 +45,9 @@
           }
           .abibox-content-text{
             display: inline-block;
-            width: 70%;
+            width: 65%;
             word-break: keep-all;
-            font-weight: 400;
+            font-weight: 300;
           }
         }
       }
