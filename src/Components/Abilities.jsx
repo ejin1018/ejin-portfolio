@@ -77,14 +77,14 @@ const Abilities = ()=>{
             </ul>
           </div>
           <div className='abibox-content'>
-            <p className='abibox-content-text'>
-              <span className='abibox-content-program'>ADOBE ILLUSTRATOR</span>
-              아이콘, 일러스트, 그래픽 제작 가능
-            </p>
-            <p className='abibox-content-text'>
-              <span className='abibox-content-program'>ADOBE XD</span>
-              웹 디자인, ‘네스트호텔 리뉴얼’ 작업
-            </p>
+            <div className='abibox-content-info'>
+              <p className='abibox-content-program'>ADOBE ILLUSTRATOR</p>
+              <p className='abibox-content-text'>아이콘, 일러스트, 그래픽 제작 가능</p>
+            </div>
+            <div className='abibox-content-text'>
+              <p className='abibox-content-program'>ADOBE XD</p>
+              <p className='abibox-content-text'>웹 디자인, ‘네스트호텔 리뉴얼’ 작업</p>
+            </div>
             <p className='abibox-content-text'>
               <span className='abibox-content-program'>FIGMA</span>
               웹 디자인, 프로토타입 작업 가능

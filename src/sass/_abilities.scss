@@ -26,9 +26,18 @@
       .abibox-content{
         margin-top: 25px;
         background: wheat;
-        &-text{
+        &-info{
           .abibox-content-program{
-            
+            display: inline-block;
+            width: 30%;
+            word-break: keep-all;
+            font-weight: 600;
+          }
+          .abibox-content-text{
+            display: inline-block;
+            width: 70%;
+            word-break: keep-all;
+            font-weight: 400;
           }
         }
       }
