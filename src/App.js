@@ -3,6 +3,7 @@ import { Reset } from 'styled-reset';
 import { Routes,Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
+import Abilities from './Components/Abilities';
 import './App.css';
 import './sass/style.scss';
 
@@ -33,12 +34,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route to="/" element="<Intro/>" />
+        <Route to="/" element={<App/>} />
       </Routes>
       <Reset />
       <div className='colorTheme pinkNgold'>
         <Header />
         <Intro />
+        <Abilities />
       </div>
     </>
   );

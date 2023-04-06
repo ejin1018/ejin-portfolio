@@ -1,0 +1,37 @@
+@import "utility";
+
+.abilities-wrap{
+  margin-top: 10rem;
+  .abilities-inner{
+    @include flexBetween;
+    .abilities-box{
+      width: 30%;
+      .abibox-title{
+        &-back{
+          text-align: center;
+          font-size: 5.3rem;
+          font-weight: 900;
+          transform: skewY(-7deg);
+        }
+        .abibox-icon-list{
+          @include flexBetween;
+          width: 80%;
+          margin: 0 auto;
+          li{
+            width: 75px;
+            height: 75px;
+          }
+        }
+      }
+      .abibox-content{
+        margin-top: 25px;
+        background: wheat;
+        &-text{
+          .abibox-content-program{
+            
+          }
+        }
+      }
+    }
+  }
+}

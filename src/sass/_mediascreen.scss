@@ -1,13 +1,16 @@
 @media screen and (max-width:1440px) {
+  [class*="-inner"]{
+    max-width: 90%;
+    margin: 0 auto;
+  }
   .nav-wrap{
-    width: 95%;
+    width: 90%;
     .nav-list{
       width: 30%;
     }
   }
   .intro-wrap{
     .intro-inner {
-      width: 95%;
       .intro-bottom-linklist{
         width: 28%;
       }

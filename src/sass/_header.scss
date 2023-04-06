@@ -1,7 +1,7 @@
 @import "utility";
 
 .nav-wrap{
-  @include flexCenter;
+  @include flexBetween;
   position: fixed;
   top: 0;
   left: 50%;
@@ -17,7 +17,7 @@
     }
   }
   .nav-list{
-    @include flexCenter;
+    @include flexBetween;
     width: 25%;
     li{
       .nav-btn{

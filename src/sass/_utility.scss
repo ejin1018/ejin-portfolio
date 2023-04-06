@@ -1,0 +1,38 @@
+@mixin relativeZero(){
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@mixin flexBetween(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flexCenter(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+a{
+  text-decoration: none;
+}
+[class*="-inner"]{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.bold-text{
+  font-weight: 800;
+}
+.hidden-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}

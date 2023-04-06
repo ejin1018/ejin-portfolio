@@ -4,6 +4,9 @@
   $second-color:#FFE1E3;
   $third-color:#F1BCAE;
   $point-color: #DFB669;
+
+  background: $base-color;
+
   .nav-wrap{
     .nav-logo{
       > a{
@@ -21,8 +24,8 @@
       }
     }
   }
+
   .intro-wrap{
-    background: $base-color;
     .intro-back-rect{
       background: $second-color;
     }
@@ -38,13 +41,28 @@
         .intro-photo{
           &-line{
             border: 1px solid $point-color;
+            .linklist-btn{
+              color: $normal-color;
+            }
           }
         }
       }
-      .intro-bottom{
-        border-top:1px solid $normal-color;
-        .linklist-btn{
-          color: $normal-color;
+    }
+  }
+
+  .abilities-wrap{
+    .abibox-title-back{
+      color: $second-color;
+      transition: all .3s;
+      &:hover{
+        -webkit-text-stroke: 1px $point-color;
+        -webkit-text-fill-color: transparent;          
+      }
+    }
+    .abibox-icon-list{
+      li{
+        svg{
+          fill:$normal-color;
         }
       }
     }
@@ -56,6 +74,9 @@
   $base-color:#F3F0DF;
   $second-color:#EBE7CF;
   $point-color: #E17858;
+
+  background: $base-color;
+
   .nav-wrap{
     .nav-logo{
       > a{
@@ -74,7 +95,6 @@
     }
   }
   .intro-wrap{
-    background: $base-color;
     .intro-back-rect{
       background: $second-color;
     }
@@ -90,13 +110,10 @@
         .intro-photo{
           &-line{
             border: 1px solid $point-color;
+            .linklist-btn{
+              color: $normal-color;
+            }
           }
-        }
-      }
-      .intro-bottom{
-        border-top:1px solid $normal-color;
-        .linklist-btn{
-          color: $normal-color;
         }
       }
     }
@@ -108,6 +125,9 @@
   $base-color:#F9F8F6;
   $second-color:#F1EEEB;
   $point-color: #DB874B;
+
+  background: $base-color;
+
   .nav-wrap{
     .nav-logo{
       > a{
@@ -126,7 +146,6 @@
     }
   }
   .intro-wrap{
-    background: $base-color;
     .intro-back-rect{
       background: $second-color;
     }
@@ -142,13 +161,10 @@
         .intro-photo{
           &-line{
             border: 1px solid $point-color;
+            .linklist-btn{
+              color: $normal-color;
+            }
           }
-        }
-      }
-      .intro-bottom{
-        border-top:1px solid $normal-color;
-        .linklist-btn{
-          color: $normal-color;
         }
       }
     }
