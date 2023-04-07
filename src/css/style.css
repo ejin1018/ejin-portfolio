@@ -238,6 +238,13 @@ a {
   font-size: 0.9rem;
   font-weight: 700;
 }
+.intro-wrap .intro-inner .canvas-wrap {
+  position: absolute;
+  left: 3%;
+  bottom: 20%;
+  width: 19rem;
+  height: 13rem;
+}
 
 a {
   text-decoration: none;
@@ -263,7 +270,8 @@ a {
 }
 
 .abilities-wrap {
-  margin-top: 10rem;
+  padding-top: 10rem;
+  overflow: hidden;
 }
 .abilities-wrap .abilities-inner {
   display: flex;
@@ -286,6 +294,7 @@ a {
   font-size: 5rem;
   font-weight: 900;
   transform: skewY(-7deg) translateX(-50%);
+  transition: all 0.4s;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list {
   position: relative;
@@ -303,13 +312,13 @@ a {
   height: 3.75rem;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-content {
-  margin-top: 1.563rem;
+  margin-top: 2rem;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-content-info {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 0.625rem;
+  margin-bottom: 1rem;
 }
 .abilities-wrap .abilities-inner .abilities-box .abibox-content-info .abibox-content-program {
   display: inline-block;
@@ -322,6 +331,7 @@ a {
   width: 65%;
   word-break: keep-all;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .pinkNgold {
@@ -497,9 +507,12 @@ a {
   }
   .abilities-wrap .abilities-inner .abilities-box {
     width: 100%;
+    margin-bottom: 3rem;
   }
   .abilities-wrap .abilities-inner .abilities-box .abibox-title-back {
-    text-align: left;
+    left: 0;
+    bottom: 50%;
+    transform: skewY(0deg) translateX(0px);
   }
   .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list {
     width: 100%;

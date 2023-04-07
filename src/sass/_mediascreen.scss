@@ -48,9 +48,12 @@
       flex-direction: column;
       .abilities-box{
         width: 100%;
+        margin-bottom: 3rem;
         .abibox-title{
           &-back{
-            text-align: left;
+            left: 0;
+            bottom: 50%;
+            transform: skewY(0deg) translateX(0px);
           }
           .abibox-icon-list{
             width: 100%;

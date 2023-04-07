@@ -1,7 +1,8 @@
 @import "utility";
 
 .abilities-wrap{
-  margin-top: 10rem;
+  padding-top: 10rem;
+  overflow: hidden;
   .abilities-inner{
     @include flexBetween;
     .abilities-box{
@@ -16,7 +17,7 @@
           font-size: 5rem;
           font-weight: 900;
           transform: skewY(-7deg) translateX(-50%);
-          
+          transition: all .4s;
         }
         .abibox-icon-list{
           @include relativeZero;
@@ -31,12 +32,12 @@
         }
       }
       .abibox-content{
-        margin-top: 1.563rem;
+        margin-top: 2rem;
         &-info{
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
-          margin-bottom: 0.625rem;
+          margin-bottom: 1rem;
           .abibox-content-program{
             display: inline-block;
             width: 30%;
@@ -48,6 +49,7 @@
             width: 65%;
             word-break: keep-all;
             font-weight: 300;
+            line-height: 1.5;
           }
         }
       }
