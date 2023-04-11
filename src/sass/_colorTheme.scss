@@ -76,6 +76,28 @@
       }
     }
   }
+
+  .works-wrap{
+    .works-back-text{
+      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-fill-color: transparent;
+    }
+    .work-content{
+      .work-titles{
+        .work-title{
+          color: $normal-color;
+        }
+        .work-icons{
+          svg{
+            fill: $normal-color;
+          }
+        }
+      }
+      .work-desc{
+        color: $normal-color;
+      }
+    }
+  }
 }
 
 .beigeNblue{

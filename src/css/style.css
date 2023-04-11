@@ -335,6 +335,88 @@ a {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
+[class*=-inner] {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.hidden-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.works-wrap {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  overflow: hidden;
+}
+.works-wrap .works-back-text {
+  transform: skewY(-7deg);
+  font-size: 7.8rem;
+  font-weight: 900;
+  text-align: center;
+}
+.works-wrap .works-all {
+  transform: skewY(-7deg);
+  overflow: visible;
+}
+.works-wrap .works-all .work-slide {
+  width: 50%;
+  transform: skewY(7deg);
+}
+.works-wrap .works-all .work-slide-img {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.works-wrap .works-all .work-slide .work-content {
+  margin-top: 1.5rem;
+}
+.works-wrap .works-all .work-slide .work-content .work-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.works-wrap .works-all .work-slide .work-content .work-titles .work-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.works-wrap .works-all .work-slide .work-content .work-titles .work-icons svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+}
+.works-wrap .works-all .work-slide .work-content .work-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.works-wrap .works-all .work-slide .work-content .work-desc-box {
+  max-width: 30%;
+}
+.works-wrap .works-all .work-slide .work-content .work-desc-box-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+}
+.works-wrap .works-all .work-slide .work-content .work-desc-box-text {
+  word-break: keep-all;
+}
+
 .pinkNgold {
   background: #FFF4F2;
 }
@@ -378,6 +460,19 @@ a {
   margin-top: 1.563rem;
 }
 .pinkNgold .abilities-wrap .abibox-content-info .abibox-content-program {
+  color: #F1BCAE;
+}
+.pinkNgold .works-wrap .works-back-text {
+  -webkit-text-stroke: 1px #F1BCAE;
+  -webkit-text-fill-color: transparent;
+}
+.pinkNgold .works-wrap .work-content .work-titles .work-title {
+  color: #F1BCAE;
+}
+.pinkNgold .works-wrap .work-content .work-titles .work-icons svg {
+  fill: #F1BCAE;
+}
+.pinkNgold .works-wrap .work-content .work-desc {
   color: #F1BCAE;
 }
 

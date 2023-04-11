@@ -1,0 +1,58 @@
+@import "utility";
+
+.works-wrap{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  overflow: hidden;
+  .works-back-text{
+    transform: skewY(-7deg);
+    font-size: 7.8rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .works-all{
+    transform: skewY(-7deg);
+    overflow: visible;
+    .work-slide{
+      width: 50%;
+      transform: skewY(7deg);
+      &-img{
+        display: block;
+        width: 100%;
+        cursor: pointer;
+      }
+      .work-content{
+        margin-top: 1.5rem;
+        .work-titles{
+          @include flexBetween;
+          .work-title{
+            font-size: 2rem;
+            font-weight: 700;
+          }
+          .work-icons{
+            svg{
+              width: 1.4rem;
+              height: 1.4rem;
+              margin-left: 0.5rem;
+            }
+          }
+        }
+        .work-desc{
+          @include flexBetween;
+          margin-top: 1.5rem;
+          &-box{
+            max-width: 30%;
+            &-title{
+              font-size: 1.1rem;
+              font-weight: 600;
+              margin-bottom: 0.625rem;
+            }
+            &-text{
+              word-break: keep-all;
+            }
+          }
+        }
+      }
+    }
+  }
+}
