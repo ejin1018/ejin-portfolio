@@ -179,6 +179,7 @@ a {
 .intro-wrap .intro-inner .intro-photo-ejin {
   top: 0;
   right: 0;
+  background: url("../../public/images/ejin-main.JPG") no-repeat;
   background-size: cover;
 }
 .intro-wrap .intro-inner .intro-photo-line {
