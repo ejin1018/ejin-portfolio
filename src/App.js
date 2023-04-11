@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Intro from './Components/Intro';
 import Abilities from './Components/Abilities';
 import Works from './Components/Works';
+import Footer from './Components/Footer';
 import './App.css';
 import './sass/style.scss';
 
@@ -16,15 +17,15 @@ function App() {
     
     colorThemeBtns.forEach((btns,index)=>{
       btns.addEventListener('click',function(){
-        if(index == 0){
+        if(index === 0){
           colorTheme.classList.remove('beigeNblue');
           colorTheme.classList.remove('deepGreen');
           colorTheme.classList.add('pinkNgold');
-        }else if(index == 1){
+        }else if(index === 1){
           colorTheme.classList.remove('pinkNgold');
           colorTheme.classList.remove('deepGreen');
           colorTheme.classList.add('beigeNblue');
-        }else if(index == 2){
+        }else if(index === 2){
           colorTheme.classList.remove('beigeNblue');
           colorTheme.classList.remove('pinkNgold');
           colorTheme.classList.add('deepGreen');
@@ -43,6 +44,7 @@ function App() {
         <Intro />
         <Abilities />
         <Works />
+        <Footer />
       </div>
     </>
   );
