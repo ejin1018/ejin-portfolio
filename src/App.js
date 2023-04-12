@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React,{ useEffect } from 'react';
 import { Reset } from 'styled-reset';
 import { Routes,Route } from 'react-router-dom';
 import Header from './Components/Header';
@@ -6,6 +6,7 @@ import Intro from './Components/Intro';
 import Abilities from './Components/Abilities';
 import Works from './Components/Works';
 import Footer from './Components/Footer';
+import Scene from './Components/Scene'
 import './App.css';
 import './sass/style.scss';
 
@@ -43,7 +44,8 @@ function App() {
         <Header />
         <Intro />
         <Abilities />
-        <Works />
+        {/* <Works /> */}
+        <Scene />
         <Footer />
       </div>
     </>
