@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Pagination } from "swiper";
+import { Pagination, Mousewheel } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import onetripApp from '../onetripapp.mp4'
@@ -16,9 +16,10 @@ function Works(){
           pagination={{
             type: "fraction",
           }}
+          mousewheel={true}
           slidesPerView={"auto"}
           centeredSlides={true}
-          modules={[Pagination]}
+          modules={[Pagination, Mousewheel]}
           className="mySwiper works-all"
         >
           <SwiperSlide className='work-slide'>
@@ -174,7 +175,7 @@ function Works(){
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
-                  <p className='work-desc-box-text'>php를 통해 CRU 구현</p>
+                  <p className='work-desc-box-text'>php를 통해 CRUD 구현</p>
                 </div>
               </div>
             </div>

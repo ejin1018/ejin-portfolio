@@ -23,7 +23,7 @@ const Intro = ()=>{
     <div className="intro-wrap">
       <div className="intro-back-rect"></div>
       <div className="intro-inner">
-        <div className="intro-back-text en">FRONT-END DEVELOPER FRONT-END DEVELOPER</div>
+        <div className="intro-back-text en">Front-end developer, good at react, vanilla javascript, sass</div>
         <section className="intro-contents">
           <h2 className="intro-slogan">
             <span className="qmark-l bold-text en">&ldquo;</span>

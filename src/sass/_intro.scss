@@ -17,7 +17,7 @@
     @include relativeZero;
     height: 100vh;
     .intro-back-text{
-      width: 300%;
+      width: 350%;
       position: absolute;
       top: -7%;
       left: 0%;
@@ -25,6 +25,7 @@
       font-weight: 900;
       transform: skewY(-7deg);
       color: transparent;
+      text-transform: uppercase;
     }
     .intro-contents{
       position: absolute;
