@@ -113,7 +113,7 @@ a {
   position: absolute;
   top: -43%;
   right: 0%;
-  transform: rotate(-15deg);
+  transform: rotate(-7deg);
 }
 .intro-wrap .intro-inner {
   position: relative;
@@ -180,7 +180,8 @@ a {
   top: 0;
   right: 0;
   background: url("../../public/images/ejin-main.JPG") no-repeat;
-  background-size: cover;
+  background-size: 110%;
+  background-position: top 10% left;
 }
 .intro-wrap .intro-inner .intro-photo-line {
   top: 1.25rem;
@@ -271,7 +272,7 @@ a {
 }
 
 .abilities-wrap {
-  padding-top: 10rem;
+  padding-top: 15rem;
   overflow: hidden;
 }
 .abilities-wrap .abilities-inner {
@@ -359,15 +360,14 @@ a {
 }
 
 .works-wrap {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 12rem;
+  padding-bottom: 20rem;
   overflow: hidden;
 }
 .works-wrap .works-back-text {
   transform: skewY(-7deg);
   font-size: 7.8rem;
   font-weight: 900;
-  text-align: center;
 }
 .works-wrap .works-all {
   transform: skewY(-7deg);
@@ -376,11 +376,35 @@ a {
 .works-wrap .works-all .work-slide {
   width: 50%;
   transform: skewY(7deg);
+  padding: 1.2rem;
 }
 .works-wrap .works-all .work-slide-img {
   display: block;
   width: 100%;
   cursor: pointer;
+}
+.works-wrap .works-all .work-slide .slide-blur-box {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.works-wrap .works-all .work-slide .slide-blur-box .work-slide-img-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5019607843);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+.works-wrap .works-all .work-slide .slide-blur-box .work-slide-video {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .works-wrap .works-all .work-slide .work-content {
   margin-top: 1.5rem;
@@ -393,6 +417,8 @@ a {
 .works-wrap .works-all .work-slide .work-content .work-titles .work-title {
   font-size: 2rem;
   font-weight: 700;
+  word-break: keep-all;
+  line-height: 1.125;
 }
 .works-wrap .works-all .work-slide .work-content .work-titles .work-icons svg {
   width: 1.4rem;
@@ -401,12 +427,12 @@ a {
 }
 .works-wrap .works-all .work-slide .work-content .work-desc {
   display: flex;
-  align-items: center;
+  align-items: normal;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
 }
 .works-wrap .works-all .work-slide .work-content .work-desc-box {
-  max-width: 30%;
+  max-width: 25%;
 }
 .works-wrap .works-all .work-slide .work-content .work-desc-box-title {
   font-size: 1.1rem;
@@ -415,6 +441,14 @@ a {
 }
 .works-wrap .works-all .work-slide .work-content .work-desc-box-text {
   word-break: keep-all;
+  line-height: 1.45;
+}
+.works-wrap .works-all .swiper-pagination {
+  position: absolute;
+  bottom: -10%;
+  right: 0;
+  font-size: 6rem;
+  font-weight: 900;
 }
 
 a {
@@ -514,8 +548,10 @@ a {
   color: #F1BCAE;
 }
 .pinkNgold .works-wrap .works-back-text {
-  -webkit-text-stroke: 1px #F1BCAE;
-  -webkit-text-fill-color: transparent;
+  color: #FFE1E3;
+}
+.pinkNgold .works-wrap .work-slide {
+  box-shadow: 0px 0px 24px 5px #FFE1E3;
 }
 .pinkNgold .works-wrap .work-content .work-titles .work-title {
   color: #F1BCAE;
@@ -525,6 +561,9 @@ a {
 }
 .pinkNgold .works-wrap .work-content .work-desc {
   color: #F1BCAE;
+}
+.pinkNgold .works-wrap .swiper-pagination {
+  color: #FFE1E3;
 }
 .pinkNgold .footer-wrap {
   background: #FFE1E3;
@@ -585,8 +624,10 @@ a {
   color: #255B8A;
 }
 .beigeNblue .works-wrap .works-back-text {
-  -webkit-text-stroke: 1px #255B8A;
-  -webkit-text-fill-color: transparent;
+  color: #EBE7CF;
+}
+.beigeNblue .works-wrap .work-slide {
+  box-shadow: 0px 0px 24px 5px #EBE7CF;
 }
 .beigeNblue .works-wrap .work-content .work-titles .work-title {
   color: #255B8A;
@@ -596,6 +637,9 @@ a {
 }
 .beigeNblue .works-wrap .work-content .work-desc {
   color: #255B8A;
+}
+.beigeNblue .works-wrap .swiper-pagination {
+  color: #EBE7CF;
 }
 .beigeNblue .footer-wrap {
   background: #EBE7CF;
@@ -656,8 +700,10 @@ a {
   color: #5D633F;
 }
 .deepGreen .works-wrap .works-back-text {
-  -webkit-text-stroke: 1px #5D633F;
-  -webkit-text-fill-color: transparent;
+  color: #F1EEEB;
+}
+.deepGreen .works-wrap .work-slide {
+  box-shadow: 0px 0px 24px 5px #F1EEEB;
 }
 .deepGreen .works-wrap .work-content .work-titles .work-title {
   color: #5D633F;
@@ -667,6 +713,9 @@ a {
 }
 .deepGreen .works-wrap .work-content .work-desc {
   color: #5D633F;
+}
+.deepGreen .works-wrap .swiper-pagination {
+  color: #F1EEEB;
 }
 .deepGreen .footer-wrap {
   background: #F1EEEB;

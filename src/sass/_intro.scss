@@ -11,7 +11,7 @@
     position: absolute;
     top: -43%;
     right: 0%;
-    transform: rotate(-15deg);
+    transform: rotate(-7deg);
   }
   .intro-inner{
     @include relativeZero;
@@ -70,7 +70,8 @@
         top: 0;
         right: 0;
         background: url('../../public/images/ejin-main.JPG') no-repeat;
-        background-size: cover;
+        background-size: 110%;
+        background-position: top 10% left;
       }
       &-line{
         top: 1.250rem;

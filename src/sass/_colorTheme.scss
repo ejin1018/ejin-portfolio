@@ -79,8 +79,10 @@
 
   .works-wrap{
     .works-back-text{
-      -webkit-text-stroke: 1px $normal-color;
-      -webkit-text-fill-color: transparent;
+      color: $second-color;
+    }
+    .work-slide{
+      box-shadow: 0px 0px 24px 5px $second-color;
     }
     .work-content{
       .work-titles{
@@ -96,6 +98,9 @@
       .work-desc{
         color: $normal-color;
       }
+    }
+    .swiper-pagination{
+      color: $second-color;
     }
   }
   
@@ -193,8 +198,10 @@
   }
   .works-wrap{
     .works-back-text{
-      -webkit-text-stroke: 1px $normal-color;
-      -webkit-text-fill-color: transparent;
+      color: $second-color;
+    }
+    .work-slide{
+      box-shadow: 0px 0px 24px 5px $second-color;
     }
     .work-content{
       .work-titles{
@@ -210,6 +217,9 @@
       .work-desc{
         color: $normal-color;
       }
+    }
+    .swiper-pagination{
+      color: $second-color;
     }
   }
   
@@ -307,8 +317,10 @@
   }
   .works-wrap{
     .works-back-text{
-      -webkit-text-stroke: 1px $normal-color;
-      -webkit-text-fill-color: transparent;
+      color: $second-color;
+    }
+    .work-slide{
+      box-shadow: 0px 0px 24px 5px $second-color;
     }
     .work-content{
       .work-titles{
@@ -324,6 +336,9 @@
       .work-desc{
         color: $normal-color;
       }
+    }
+    .swiper-pagination{
+      color: $second-color;
     }
   }
   
