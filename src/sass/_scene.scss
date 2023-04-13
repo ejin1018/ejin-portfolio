@@ -1,0 +1,113 @@
+@import "utility";
+
+.works-wrap{
+  @include relativeZero;
+  padding-top: 12rem;
+  padding-bottom: 20rem;
+  overflow: hidden;
+
+  .works-container{
+    width: 600vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .panel {
+    width: 100vw;
+    height: 100vh;
+    @include flexBetween;
+    
+    .work-slide{
+      width: 40%;
+      padding: 1.2rem;
+    }
+    .work-slide-img{
+      display: block;
+      width: 100%;
+      cursor: pointer;
+    }
+    .slide-blur-box{
+      @include relativeZero;
+      .work-slide-img-blur{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff80;
+        backdrop-filter: blur(6px);
+      }
+      .work-slide-video{
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    .work-content{
+      margin-top: 1.5rem;
+      .work-titles{
+        @include flexBetween;
+        .work-title{
+          font-size: 2rem;
+          font-weight: 700;
+          word-break: keep-all;
+          line-height: 1.125;
+        }
+        .work-icons{
+          svg{
+            width: 1.4rem;
+            height: 1.4rem;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+      .work-desc{
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+        margin-top: 1.8rem;
+        &-box{
+          max-width: 25%;
+          &-title{
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.625rem;
+          }
+          &-text{
+            word-break: keep-all;
+            line-height: 1.45;
+          }
+        }
+      }
+    }
+    
+  }
+  .blue {
+    background-color: lightblue;
+  }
+  .red {
+    background: lightsalmon;
+  }
+  .orange {
+    background: lightgoldenrodyellow;
+  }
+  .purple {
+    background: lightcyan;
+  }
+
+
+  .works-back-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewY(-7deg);
+    width: 100vw;
+    font-size: 7.8rem;
+    font-weight: 900;
+    text-align: center;
+  }
+}
