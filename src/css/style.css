@@ -21,29 +21,6 @@ a {
   line-height: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
-[class*=-inner] {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.bold-text {
-  font-weight: 800;
-}
-
-.hidden-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 1px;
-  font-size: 0;
-  line-height: 0;
-}
-
 .nav-wrap {
   display: flex;
   align-items: center;
@@ -141,7 +118,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -150,7 +127,7 @@ a {
   position: relative;
   top: 0;
   left: 0;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   line-height: 1.2;
   transform: skewY(-7deg);
 }
@@ -266,12 +243,100 @@ a {
   font-size: 0.9rem;
   font-weight: 700;
 }
-.intro-wrap .intro-inner .canvas-wrap {
+
+a {
+  text-decoration: none;
+}
+
+[class*=-inner] {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.hidden-title {
   position: absolute;
-  right: 15%;
-  top: 15%;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.about-wrap {
+  padding-top: 13rem;
+}
+.about-wrap .about-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-wrap .about-inner .about-right {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.about-wrap .about-inner .about-right-top {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 3rem;
+}
+.about-wrap .about-inner .about-right-top .canvas-wrap {
+  position: absolute;
+  left: 50%;
+  top: -125%;
   width: 19rem;
   height: 13rem;
+  transform: translateX(-50%);
+}
+.about-wrap .about-inner .about-right-top .about-promise {
+  position: relative;
+  top: 0;
+  left: 0;
+  word-break: keep-all;
+  line-height: 1.75;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-align: center;
+}
+.about-wrap .about-inner .about-right-middle {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 1.8rem;
+}
+.about-wrap .about-inner .about-right-middle .about-name-ko {
+  font-size: 1.313rem;
+  font-weight: 600;
+  margin-right: 0.9rem;
+}
+.about-wrap .about-inner .about-right-middle .about-name-en {
+  font-size: 0.75 rem;
+  font-weight: 300;
+}
+.about-wrap .about-inner .about-right-bottom {
+  text-align: center;
+}
+.about-wrap .about-inner .about-right-bottom .personal-infos {
+  margin-bottom: 1.8rem;
+}
+.about-wrap .about-inner .about-right-bottom .personal-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.about-wrap .about-inner .about-right-bottom .personal-info {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.625rem;
+}
+.about-wrap .about-inner .about-right-bottom .more-infos {
+  display: none;
 }
 
 a {
@@ -298,7 +363,7 @@ a {
 }
 
 .abilities-wrap {
-  padding-top: 15rem;
+  padding-top: 20rem;
   overflow: hidden;
 }
 .abilities-wrap .abilities-inner {
@@ -389,7 +454,7 @@ a {
   position: relative;
   top: 0;
   left: 0;
-  padding-top: 12rem;
+  margin-top: 15rem;
   padding-bottom: 3rem;
   overflow: hidden;
 }
@@ -560,10 +625,10 @@ a {
   background: #FFF4F2;
 }
 .pinkNgold .nav-wrap .nav-logo > a {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .nav-wrap .nav-list li .nav-btn {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .nav-wrap .nav-list li .nav-btn-on {
   color: #DFB669;
@@ -572,14 +637,14 @@ a {
   background: #FFE1E3;
 }
 .pinkNgold .intro-wrap .intro-back-text {
-  -webkit-text-stroke: 1px #D49989;
+  -webkit-text-stroke: 0.5px #414141;
   -webkit-text-fill-color: transparent;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-slogan {
   color: #DFB669;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
-  color: #D49989;
+  color: #414141;
   border: solid 0.5px #FFE1E3;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
@@ -592,7 +657,7 @@ a {
   fill: #DFB669;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
-  fill: #D49989;
+  fill: #414141;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-photo-back {
   background: #FFF4F2;
@@ -615,7 +680,7 @@ a {
   margin-top: 1.563rem;
 }
 .pinkNgold .abilities-wrap .abibox-content-info .abibox-content-program {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .works-wrap .works-back-text {
   color: #FFE1E3;
@@ -624,16 +689,16 @@ a {
   box-shadow: 0px 0px 24px 5px #FFE1E3;
 }
 .pinkNgold .works-wrap .slide-blur-box .work-slide-qr .work-slide-qr-text {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .works-wrap .work-content .work-titles .work-title {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .works-wrap .work-content .work-titles .work-icons svg {
-  fill: #D49989;
+  fill: #414141;
 }
 .pinkNgold .works-wrap .work-content .work-desc {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .works-wrap .swiper-pagination {
   color: #FFE1E3;
@@ -645,10 +710,10 @@ a {
   color: #FFF4F2;
 }
 .pinkNgold .footer-wrap .footer-box-title {
-  color: #D49989;
+  color: #414141;
 }
 .pinkNgold .footer-wrap .footer-box-text {
-  color: #D49989;
+  color: #414141;
 }
 
 .beigeNblue {
@@ -667,7 +732,7 @@ a {
   background: #EBE7CF;
 }
 .beigeNblue .intro-wrap .intro-back-text {
-  -webkit-text-stroke: 1px #255B8A;
+  -webkit-text-stroke: 0.5px #255B8A;
   -webkit-text-fill-color: transparent;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-slogan {
@@ -759,7 +824,7 @@ a {
   background: #F1EEEB;
 }
 .deepGreen .intro-wrap .intro-back-text {
-  -webkit-text-stroke: 1px #5D633F;
+  -webkit-text-stroke: 0.5px #5D633F;
   -webkit-text-fill-color: transparent;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-slogan {

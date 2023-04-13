@@ -1,25 +1,8 @@
-import React,{useRef} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { Canvas,useFrame, useLoader } from '@react-three/fiber';
-import { Environment } from "@react-three/drei";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import Marquee from "react-fast-marquee";
 
-const MacBook = ()=>{
-  useFrame(({clock})=>{
-    const a = clock.getElapsedTime();
-    ref.current.rotation.y = a;
-  })
-  const ref = useRef();
-  const gltf = useLoader(GLTFLoader,'./macbook/scene.gltf');
-  return <primitive object={gltf.scene} ref={ref}/>
-};
-
-
 const Intro = ()=>{
-  const MacBookCam = (prop)=>{
-    console.log(prop)
-  }
   return(
     <div className="intro-wrap">
       <div className="intro-back-rect"></div>
@@ -84,14 +67,6 @@ const Intro = ()=>{
             </li>
           </ul>
         </div>
-
-        <div className="canvas-wrap">
-          <Canvas onCreated={MacBookCam} camera={{position:[0,0.15,0.6]}}>
-            <MacBook />
-            <Environment preset='dawn'/>
-          </Canvas>
-        </div>
-
       </div>
     </div>
   )

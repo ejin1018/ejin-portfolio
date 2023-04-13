@@ -36,14 +36,14 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
-      width: 95%;
+      width: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
     .intro-slogan{
       @include relativeZero;
-      font-size: 2.6rem;
+      font-size: 2.8rem;
       line-height: 1.2;
       transform: skewY(-7deg);
       .qmark-l{
@@ -151,12 +151,12 @@
         }
       }
     }
-    .canvas-wrap{
-      position: absolute;
-      right: 15%;
-      top: 15%;
-      width: 19rem;
-      height: 13rem;
-    }
+    // .canvas-wrap{
+    //   position: absolute;
+    //   right: 15%;
+    //   top: 15%;
+    //   width: 19rem;
+    //   height: 13rem;
+    // }
   }
 }

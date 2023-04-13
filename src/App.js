@@ -3,6 +3,7 @@ import { Reset } from 'styled-reset';
 import { Routes,Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
+import About from './Components/About';
 import Abilities from './Components/Abilities';
 import Footer from './Components/Footer';
 import Scene from './Components/Scene'
@@ -42,6 +43,7 @@ function App() {
       <div className='colorTheme deepGreen'>
         <Header />
         <Intro />
+        <About />
         <Abilities />
         <Scene />
         <Footer />

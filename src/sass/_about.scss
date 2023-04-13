@@ -1,0 +1,65 @@
+@import "utility";
+
+.about-wrap{
+  padding-top: 13rem;
+  .about-inner{
+    @include flexCenter;
+    .about-right{
+      @include relativeZero;
+      &-top{
+        @include relativeZero;
+        margin-bottom: 3rem;
+        .canvas-wrap{
+          position: absolute;
+          left: 50%;
+          top: -125%;
+          width: 19rem;
+          height: 13rem;
+          transform: translateX(-50%)
+        }
+        .about-promise{
+          @include relativeZero;
+          word-break: keep-all;
+          line-height: 1.75;
+          font-size: 1.3rem;
+          font-weight: 800;
+          text-align: center;
+        }
+      }
+      &-middle{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-bottom: 1.8rem;
+        .about-name-ko{
+          font-size: 1.313rem;
+          font-weight: 600;
+          margin-right: 0.9rem;
+        }
+        .about-name-en{
+          font-size: 0.75 rem;
+          font-weight: 300;
+        }
+      }
+      &-bottom{
+        text-align: center;
+        .personal-infos{
+          margin-bottom: 1.8rem;
+        }
+        .personal-title{
+          font-size: 0.9rem;
+          font-weight: 600;
+          margin-bottom: 0.4rem;
+        }
+        .personal-info{
+          font-size: 0.9rem;
+          font-weight: 300;
+          margin-bottom: 0.625rem;
+        }
+        .more-infos{
+          display: none;
+        }
+      }
+    }
+  }
+}

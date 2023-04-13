@@ -1,5 +1,5 @@
 .pinkNgold{
-  $normal-color: #D49989;
+  $normal-color: #414141;
   $base-color:#FFF4F2;
   $second-color:#FFE1E3;
   $point-color: #DFB669;
@@ -29,7 +29,7 @@
       background: $second-color;
     }
     .intro-back-text{
-      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-stroke: 0.5px $normal-color;
       -webkit-text-fill-color: transparent;  
     }
     .intro-inner{
@@ -177,7 +177,7 @@
       background: $second-color;
     }
     .intro-back-text{
-      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-stroke: 0.5px $normal-color;
       -webkit-text-fill-color: transparent;  
     }
     .intro-inner{
@@ -316,7 +316,7 @@
       background: $second-color;
     }
     .intro-back-text{
-      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-stroke: 0.5px $normal-color;
       -webkit-text-fill-color: transparent;  
     }
     .intro-inner{
