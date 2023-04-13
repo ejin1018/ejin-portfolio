@@ -1,5 +1,5 @@
 .pinkNgold{
-  $normal-color: #F1BCAE;
+  $normal-color: #D49989;
   $base-color:#FFF4F2;
   $second-color:#FFE1E3;
   $point-color: #DFB669;
@@ -28,23 +28,43 @@
     .intro-back-rect{
       background: $second-color;
     }
+    .intro-back-text{
+      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-fill-color: transparent;  
+    }
     .intro-inner{
-      .intro-back-text{
-        -webkit-text-stroke: 1px $normal-color;
-        -webkit-text-fill-color: transparent;  
-      }
       .intro-contents{
         .intro-slogan{
           color: $point-color;
         }
-        .intro-photo{
-          &-line{
-            border: 1px solid $point-color;
-            .linklist-btn{
-              color: $normal-color;
+        .intro-buttons{
+          .intro-pf-link{
+            color: $normal-color;
+            border: solid 0.5px $second-color;
+            &:hover{
+              color: $point-color;
+              &::before{
+                width: 100%;
+              }
+              .intro-pf-icon{
+                fill: $point-color;
+              }
+            }
+            
+            .intro-pf-icon{
+              fill: $normal-color;
             }
           }
         }
+        .intro-photo{
+          &-back{
+            background: $base-color ;
+          }
+          &-line{
+            border: 1px solid $point-color;
+          }
+        }
+
       }
     }
   }
@@ -114,7 +134,7 @@
   .footer-wrap{
     background: $second-color;
     .footer-sign{
-      color: $point-color;
+      color: $base-color;
     }
     .footer-box{
       &-title{
@@ -156,23 +176,43 @@
     .intro-back-rect{
       background: $second-color;
     }
+    .intro-back-text{
+      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-fill-color: transparent;  
+    }
     .intro-inner{
-      .intro-back-text{
-        -webkit-text-stroke: 1px $normal-color;
-        -webkit-text-fill-color: transparent;  
-      }
       .intro-contents{
         .intro-slogan{
-          color: $normal-color;
+          color: $point-color;
         }
-        .intro-photo{
-          &-line{
-            border: 1px solid $point-color;
-            .linklist-btn{
-              color: $normal-color;
+        .intro-buttons{
+          .intro-pf-link{
+            color: $normal-color;
+            border: solid 0.5px $second-color;
+            &:hover{
+              color: $point-color;
+              &::before{
+                width: 100%;
+              }
+              .intro-pf-icon{
+                fill: $point-color;
+              }
+            }
+            
+            .intro-pf-icon{
+              fill: $normal-color;
             }
           }
         }
+        .intro-photo{
+          &-back{
+            background: $base-color ;
+          }
+          &-line{
+            border: 1px solid $point-color;
+          }
+        }
+
       }
     }
   }
@@ -233,7 +273,7 @@
   .footer-wrap{
     background: $second-color;
     .footer-sign{
-      color: $point-color;
+      color: $base-color;
     }
     .footer-box{
       &-title{
@@ -275,23 +315,43 @@
     .intro-back-rect{
       background: $second-color;
     }
+    .intro-back-text{
+      -webkit-text-stroke: 1px $normal-color;
+      -webkit-text-fill-color: transparent;  
+    }
     .intro-inner{
-      .intro-back-text{
-        -webkit-text-stroke: 1px $normal-color;
-        -webkit-text-fill-color: transparent;  
-      }
       .intro-contents{
         .intro-slogan{
-          color: $normal-color;
+          color: $point-color;
         }
-        .intro-photo{
-          &-line{
-            border: 1px solid $point-color;
-            .linklist-btn{
-              color: $normal-color;
+        .intro-buttons{
+          .intro-pf-link{
+            color: $normal-color;
+            border: solid 0.5px $second-color;
+            &:hover{
+              color: $point-color;
+              &::before{
+                width: 100%;
+              }
+              .intro-pf-icon{
+                fill: $point-color;
+              }
+            }
+            
+            .intro-pf-icon{
+              fill: $normal-color;
             }
           }
         }
+        .intro-photo{
+          &-back{
+            background: $base-color ;
+          }
+          &-line{
+            border: 1px solid $point-color;
+          }
+        }
+
       }
     }
   }
@@ -352,7 +412,7 @@
   .footer-wrap{
     background: $second-color;
     .footer-sign{
-      color: $point-color;
+      color: $base-color;
     }
     .footer-box{
       &-title{

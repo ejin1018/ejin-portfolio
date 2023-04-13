@@ -13,20 +13,24 @@
     right: 0%;
     transform: rotate(-7deg);
   }
-  .intro-inner{
-    @include relativeZero;
-    height: 100vh;
+  .intro-back-marquee{
+    position: absolute;
+    top: 15%;
+    overflow: hidden;
+    transform: skewY(-7deg);
+    .overlay{
+      display: none;
+    }
     .intro-back-text{
-      width: 350%;
-      position: absolute;
-      top: -7%;
-      left: 0%;
       font-size: 7.8rem;
       font-weight: 900;
-      transform: skewY(-7deg);
       color: transparent;
       text-transform: uppercase;
     }
+  }
+  .intro-inner{
+    @include relativeZero;
+    height: 100vh;
     .intro-contents{
       position: absolute;
       top: 50%;
@@ -53,6 +57,38 @@
         right: -1.750rem;
       }
     }
+    .intro-buttons{
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+      .intro-pf-link{
+        display: flex;
+        align-items: center;
+        margin-right: 0.7rem;
+        padding: 0.5rem 0.4rem;
+        overflow: hidden;
+        @include relativeZero;
+        &::before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0%;
+          height: 100%;
+          background: #fff;
+          transition: all .4s;
+          z-index: -1;
+        }
+        .intro-pf-icon{
+          width: 1rem;
+          margin-right: 0.45rem;
+        }
+        .intro-pf-name{
+          font-size: 1.1rem;
+          font-weight: 400;
+        }
+      }
+    }
     .intro-photo{
       @include relativeZero;
       width: 22.5rem;
@@ -63,7 +99,6 @@
         height: 100%;
       }
       &-back{
-        background: #fff;
         top: -1.250rem;
         right: -1.250rem;
       }
@@ -77,40 +112,26 @@
       &-line{
         top: 1.250rem;
         right: 1.250rem;
-        .line-bottom-linklist{
-          position: absolute;
-          right: 0;
-          bottom: -1.250rem;
-          right: 0;
-          display: flex;
-          li:last-child{
-            a{
-              margin-right:0;
-            }
-          }
-          .linklist-btn{
-            font-size: 0.9rem;
-            font-weight: 500;
-            margin-right:0.625rem;
-          }
-        }
       }
     }
     .intro-bottom{
       position: absolute;
       bottom: 1.250rem;
-      left: 0;
-      width: 100%;
+      right: 0;
       @include flexCenter;
       .colorTheme-btns{
         @include flexBetween;
-        .pinkNgold{
+        li{
           margin-right: 0.625rem;
+        }
+        li:last-child{
+          margin-right: 0;
+        }
+        .pinkNgold{
           color: #DFB669;
-          background: #FFF4F2;
+          background: #FFE1E3;
         }
         .beigeNblue{
-          margin-right: 0.625rem;
           color: #255B8A;
           background: #EBE7CF;
         }
@@ -132,8 +153,8 @@
     }
     .canvas-wrap{
       position: absolute;
-      left: 3%;
-      bottom: 20%;
+      right: 15%;
+      top: 15%;
       width: 19rem;
       height: 13rem;
     }

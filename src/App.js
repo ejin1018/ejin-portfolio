@@ -4,7 +4,6 @@ import { Routes,Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
 import Abilities from './Components/Abilities';
-import Works from './Components/Works';
 import Footer from './Components/Footer';
 import Scene from './Components/Scene'
 import './App.css';
@@ -20,16 +19,16 @@ function App() {
       btns.addEventListener('click',function(){
         if(index === 0){
           colorTheme.classList.remove('beigeNblue');
-          colorTheme.classList.remove('deepGreen');
-          colorTheme.classList.add('pinkNgold');
+          colorTheme.classList.remove('pinkNgold');
+          colorTheme.classList.add('deepGreen');
         }else if(index === 1){
           colorTheme.classList.remove('pinkNgold');
           colorTheme.classList.remove('deepGreen');
           colorTheme.classList.add('beigeNblue');
         }else if(index === 2){
           colorTheme.classList.remove('beigeNblue');
-          colorTheme.classList.remove('pinkNgold');
-          colorTheme.classList.add('deepGreen');
+          colorTheme.classList.remove('deepGreen');
+          colorTheme.classList.add('pinkNgold');
         }
       })
     })
@@ -40,11 +39,10 @@ function App() {
         <Route to="/" element={<App/>} />
       </Routes>
       <Reset />
-      <div className='colorTheme pinkNgold'>
+      <div className='colorTheme deepGreen'>
         <Header />
         <Intro />
         <Abilities />
-        {/* <Works /> */}
         <Scene />
         <Footer />
       </div>

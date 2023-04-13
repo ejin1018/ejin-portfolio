@@ -15,13 +15,12 @@ export default function Scene() {
       let panels = gsap.utils.toArray(".panel");
       gsap.to(panels, {
         xPercent: -100 * (panels.length - 1),
-        ease: "none",
+        ease: "power1.in",
         scrollTrigger: {
           trigger: slider.current,
           pin: true,
           scrub: 1,
           end: () => "+=" + slider.current.offsetWidth,
-          markers: true
         }
       });
     }, component);
@@ -175,7 +174,7 @@ export default function Scene() {
         <div className="panel">
           <div className="work-slide">
             <div onClick={()=>{window.open('http://ejin.dothome.co.kr/museum/index.php','_blank')}}>
-              <img src='/images/works/museum-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
+              <img src='/images/works/museumphp-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
               <div className='work-titles'>

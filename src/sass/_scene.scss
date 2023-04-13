@@ -3,7 +3,7 @@
 .works-wrap{
   @include relativeZero;
   padding-top: 12rem;
-  padding-bottom: 20rem;
+  padding-bottom: 3rem;
   overflow: hidden;
 
   .works-container{
@@ -11,6 +11,17 @@
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .works-back-text{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    transform: skewY(-7deg);
+    width: 100vw;
+    font-size: 7.8rem;
+    font-weight: 900;
+    text-align: center;
   }
   
   .panel {
@@ -106,28 +117,5 @@
     }
     
   }
-  .blue {
-    background-color: lightblue;
-  }
-  .red {
-    background: lightsalmon;
-  }
-  .orange {
-    background: lightgoldenrodyellow;
-  }
-  .purple {
-    background: lightcyan;
-  }
 
-
-  .works-back-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: skewY(-7deg);
-    width: 100vw;
-    font-size: 7.8rem;
-    font-weight: 900;
-    text-align: center;
-  }
 }
