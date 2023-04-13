@@ -84,6 +84,13 @@
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
     }
+    .slide-blur-box{
+      .work-slide-qr{
+        .work-slide-qr-text{
+          color: $normal-color;
+        }
+      }
+    }
     .work-content{
       .work-titles{
         .work-title{

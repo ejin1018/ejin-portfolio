@@ -16,7 +16,9 @@
   .panel {
     width: 100vw;
     height: 100vh;
-    @include flexBetween;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
     .work-slide{
       width: 40%;
@@ -45,6 +47,24 @@
         top: 0;
         left: 50%;
         transform: translateX(-50%);
+      }
+      .work-slide-qr{
+        position: absolute;
+        top: 0.625rem;
+        right: 0.625rem;
+        width: 3.8rem;
+        background-color: #fff;
+        padding: 0.625rem;
+        border-radius: 0.5rem;
+        &-img{
+          width: 100%;
+        }
+        &-text{
+          font-size: 0.9rem;
+          line-height: 1.25;
+          text-align: center;
+          word-break: keep-all;
+        }
       }
     }
     .work-content{

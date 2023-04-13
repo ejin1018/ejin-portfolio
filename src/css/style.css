@@ -361,6 +361,9 @@ a {
 }
 
 .works-wrap {
+  position: relative;
+  top: 0;
+  left: 0;
   padding-top: 12rem;
   padding-bottom: 20rem;
   overflow: hidden;
@@ -374,44 +377,25 @@ a {
 .works-wrap .panel {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.works-wrap .red {
-  background: red;
-}
-.works-wrap .orange {
-  background: orange;
-}
-.works-wrap .purple {
-  background: purple;
-}
-.works-wrap .blue {
-  background-color: blue;
-}
-.works-wrap .works-back-text {
-  transform: skewY(-7deg);
-  font-size: 7.8rem;
-  font-weight: 900;
-}
-.works-wrap .works-all {
-  transform: skewY(-7deg);
-  overflow: visible;
-}
-.works-wrap .works-all .work-slide {
-  width: 50%;
-  transform: skewY(7deg);
+.works-wrap .panel .work-slide {
+  width: 40%;
   padding: 1.2rem;
 }
-.works-wrap .works-all .work-slide-img {
+.works-wrap .panel .work-slide-img {
   display: block;
   width: 100%;
   cursor: pointer;
 }
-.works-wrap .works-all .work-slide .slide-blur-box {
+.works-wrap .panel .slide-blur-box {
   position: relative;
   top: 0;
   left: 0;
 }
-.works-wrap .works-all .work-slide .slide-blur-box .work-slide-img-blur {
+.works-wrap .panel .slide-blur-box .work-slide-img-blur {
   position: absolute;
   top: 0;
   left: 0;
@@ -421,7 +405,7 @@ a {
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
 }
-.works-wrap .works-all .work-slide .slide-blur-box .work-slide-video {
+.works-wrap .panel .slide-blur-box .work-slide-video {
   width: 300px;
   height: 100%;
   position: absolute;
@@ -429,49 +413,82 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
-.works-wrap .works-all .work-slide .work-content {
+.works-wrap .panel .slide-blur-box .work-slide-qr {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  width: 3.8rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+}
+.works-wrap .panel .slide-blur-box .work-slide-qr-img {
+  width: 100%;
+}
+.works-wrap .panel .slide-blur-box .work-slide-qr-text {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  text-align: center;
+  word-break: keep-all;
+}
+.works-wrap .panel .work-content {
   margin-top: 1.5rem;
 }
-.works-wrap .works-all .work-slide .work-content .work-titles {
+.works-wrap .panel .work-content .work-titles {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.works-wrap .works-all .work-slide .work-content .work-titles .work-title {
+.works-wrap .panel .work-content .work-titles .work-title {
   font-size: 2rem;
   font-weight: 700;
   word-break: keep-all;
   line-height: 1.125;
 }
-.works-wrap .works-all .work-slide .work-content .work-titles .work-icons svg {
+.works-wrap .panel .work-content .work-titles .work-icons svg {
   width: 1.4rem;
   height: 1.4rem;
   margin-left: 0.5rem;
 }
-.works-wrap .works-all .work-slide .work-content .work-desc {
+.works-wrap .panel .work-content .work-desc {
   display: flex;
   align-items: normal;
   justify-content: space-between;
   margin-top: 1.8rem;
 }
-.works-wrap .works-all .work-slide .work-content .work-desc-box {
+.works-wrap .panel .work-content .work-desc-box {
   max-width: 25%;
 }
-.works-wrap .works-all .work-slide .work-content .work-desc-box-title {
+.works-wrap .panel .work-content .work-desc-box-title {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.625rem;
 }
-.works-wrap .works-all .work-slide .work-content .work-desc-box-text {
+.works-wrap .panel .work-content .work-desc-box-text {
   word-break: keep-all;
   line-height: 1.45;
 }
-.works-wrap .works-all .swiper-pagination {
+.works-wrap .blue {
+  background-color: lightblue;
+}
+.works-wrap .red {
+  background: lightsalmon;
+}
+.works-wrap .orange {
+  background: lightgoldenrodyellow;
+}
+.works-wrap .purple {
+  background: lightcyan;
+}
+.works-wrap .works-back-text {
   position: absolute;
-  bottom: -10%;
-  right: 0;
-  font-size: 6rem;
+  top: 0;
+  left: 0;
+  transform: skewY(-7deg);
+  width: 100vw;
+  font-size: 7.8rem;
   font-weight: 900;
+  text-align: center;
 }
 
 a {
@@ -575,6 +592,9 @@ a {
 }
 .pinkNgold .works-wrap .work-slide {
   box-shadow: 0px 0px 24px 5px #FFE1E3;
+}
+.pinkNgold .works-wrap .slide-blur-box .work-slide-qr .work-slide-qr-text {
+  color: #F1BCAE;
 }
 .pinkNgold .works-wrap .work-content .work-titles .work-title {
   color: #F1BCAE;
