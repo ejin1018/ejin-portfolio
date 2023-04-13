@@ -1,8 +1,6 @@
+import React,{ useLayoutEffect, useRef } from 'react';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { useLayoutEffect, useRef } from "react";
-import Works from './Works';
-import "../css/scene.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -30,8 +28,9 @@ export default function Scene() {
   });
 
   return (
-    <div className="App" ref={component}>
-      <div ref={slider} className="container">
+    <section className="works-wrap" ref={component}>
+      <h2 className='hidden-title'>Works - 작업물</h2>
+      <div ref={slider} className="works-container">
         <div className="description panel blue">
           <div>
             SCROLL DOWN
@@ -44,6 +43,6 @@ export default function Scene() {
         <div className="panel orange">TWO</div>
         <div className="panel purple">THREE</div>
       </div>
-    </div>
+    </section>
   );
 }

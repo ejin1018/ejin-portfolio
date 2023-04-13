@@ -365,6 +365,28 @@ a {
   padding-bottom: 20rem;
   overflow: hidden;
 }
+.works-wrap .works-container {
+  width: 600vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.works-wrap .panel {
+  width: 100vw;
+  height: 100vh;
+}
+.works-wrap .red {
+  background: red;
+}
+.works-wrap .orange {
+  background: orange;
+}
+.works-wrap .purple {
+  background: purple;
+}
+.works-wrap .blue {
+  background-color: blue;
+}
 .works-wrap .works-back-text {
   transform: skewY(-7deg);
   font-size: 7.8rem;
