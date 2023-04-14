@@ -301,7 +301,7 @@ a {
   word-break: keep-all;
   line-height: 1.75;
   font-size: 1.3rem;
-  font-weight: 800;
+  font-weight: 400;
   text-align: center;
 }
 .about-wrap .about-inner .about-right-middle {
@@ -322,21 +322,24 @@ a {
 .about-wrap .about-inner .about-right-bottom {
   text-align: center;
 }
-.about-wrap .about-inner .about-right-bottom .personal-infos {
-  margin-bottom: 1.8rem;
+.about-wrap .about-inner .about-right-bottom .more-infos {
+  width: 50%;
+  margin: 0 auto;
 }
-.about-wrap .about-inner .about-right-bottom .personal-title {
+.about-wrap .about-inner .about-right-bottom .more-infos .personal-title {
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
+  margin-right: 0.5rem;
 }
-.about-wrap .about-inner .about-right-bottom .personal-info {
+.about-wrap .about-inner .about-right-bottom .more-infos .personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 0.9rem;
   font-weight: 300;
   margin-bottom: 0.625rem;
-}
-.about-wrap .about-inner .about-right-bottom .more-infos {
-  display: none;
+  text-align: right;
 }
 
 a {
@@ -621,6 +624,208 @@ a {
   text-decoration: underline;
 }
 
+.deepGreen {
+  background: #F9F8F6;
+}
+.deepGreen .nav-wrap .nav-logo > a {
+  color: #5D633F;
+}
+.deepGreen .nav-wrap .nav-list li .nav-btn {
+  color: #5D633F;
+}
+.deepGreen .nav-wrap .nav-list li .nav-btn-on {
+  color: #DB874B;
+}
+.deepGreen .intro-wrap .intro-back-rect {
+  background: #F1EEEB;
+}
+.deepGreen .intro-wrap .intro-back-text {
+  -webkit-text-stroke: 0.5px #5D633F;
+  -webkit-text-fill-color: transparent;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-slogan {
+  color: #DB874B;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
+  color: #5D633F;
+  border: solid 0.5px #F1EEEB;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
+  color: #DB874B;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
+  width: 100%;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
+  fill: #DB874B;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
+  fill: #5D633F;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-back {
+  background: #F9F8F6;
+}
+.deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-line {
+  border: 1px solid #DB874B;
+}
+.deepGreen .about-wrap .about-inner .about-promise {
+  color: #5D633F;
+}
+.deepGreen .about-wrap .about-inner .about-name-ko,
+.deepGreen .about-wrap .about-inner .about-name-en,
+.deepGreen .about-wrap .about-inner .personal-title,
+.deepGreen .about-wrap .about-inner .personal-info {
+  color: #5D633F;
+}
+.deepGreen .abilities-wrap .abibox-title .abibox-title-back {
+  color: #F1EEEB;
+  transition: all 0.3s;
+}
+.deepGreen .abilities-wrap .abibox-title .abibox-title-back:hover {
+  -webkit-text-stroke: 1px #DB874B;
+  -webkit-text-fill-color: transparent;
+}
+.deepGreen .abilities-wrap .abibox-title .abibox-icon-list li svg {
+  fill: #5D633F;
+}
+.deepGreen .abilities-wrap .abibox-content {
+  margin-top: 1.563rem;
+}
+.deepGreen .abilities-wrap .abibox-content-info .abibox-content-program {
+  color: #5D633F;
+}
+.deepGreen .works-wrap .works-back-text {
+  color: #F1EEEB;
+}
+.deepGreen .works-wrap .work-slide {
+  box-shadow: 0px 0px 24px 5px #F1EEEB;
+}
+.deepGreen .works-wrap .work-content .work-titles .work-title {
+  color: #5D633F;
+}
+.deepGreen .works-wrap .work-content .work-titles .work-icons svg {
+  fill: #5D633F;
+}
+.deepGreen .works-wrap .work-content .work-desc {
+  color: #5D633F;
+}
+.deepGreen .works-wrap .swiper-pagination {
+  color: #F1EEEB;
+}
+.deepGreen .footer-wrap {
+  background: #F1EEEB;
+}
+.deepGreen .footer-wrap .footer-sign {
+  color: #F9F8F6;
+}
+.deepGreen .footer-wrap .footer-box-title {
+  color: #5D633F;
+}
+.deepGreen .footer-wrap .footer-box-text {
+  color: #5D633F;
+}
+
+.beigeNblue {
+  background: #F3F0DF;
+}
+.beigeNblue .nav-wrap .nav-logo > a {
+  color: #255B8A;
+}
+.beigeNblue .nav-wrap .nav-list li .nav-btn {
+  color: #255B8A;
+}
+.beigeNblue .nav-wrap .nav-list li .nav-btn-on {
+  color: #E17858;
+}
+.beigeNblue .intro-wrap .intro-back-rect {
+  background: #EBE7CF;
+}
+.beigeNblue .intro-wrap .intro-back-text {
+  -webkit-text-stroke: 0.5px #255B8A;
+  -webkit-text-fill-color: transparent;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-slogan {
+  color: #E17858;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
+  color: #255B8A;
+  border: solid 0.5px #EBE7CF;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
+  color: #E17858;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
+  width: 100%;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
+  fill: #E17858;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
+  fill: #255B8A;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-back {
+  background: #F3F0DF;
+}
+.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-line {
+  border: 1px solid #E17858;
+}
+.beigeNblue .about-wrap .about-inner .about-promise {
+  color: #255B8A;
+}
+.beigeNblue .about-wrap .about-inner .about-name-ko,
+.beigeNblue .about-wrap .about-inner .about-name-en,
+.beigeNblue .about-wrap .about-inner .personal-title,
+.beigeNblue .about-wrap .about-inner .personal-info {
+  color: #255B8A;
+}
+.beigeNblue .abilities-wrap .abibox-title .abibox-title-back {
+  color: #EBE7CF;
+  transition: all 0.3s;
+}
+.beigeNblue .abilities-wrap .abibox-title .abibox-title-back:hover {
+  -webkit-text-stroke: 1px #E17858;
+  -webkit-text-fill-color: transparent;
+}
+.beigeNblue .abilities-wrap .abibox-title .abibox-icon-list li svg {
+  fill: #255B8A;
+}
+.beigeNblue .abilities-wrap .abibox-content {
+  margin-top: 1.563rem;
+}
+.beigeNblue .abilities-wrap .abibox-content-info .abibox-content-program {
+  color: #255B8A;
+}
+.beigeNblue .works-wrap .works-back-text {
+  color: #EBE7CF;
+}
+.beigeNblue .works-wrap .work-slide {
+  box-shadow: 0px 0px 24px 5px #EBE7CF;
+}
+.beigeNblue .works-wrap .work-content .work-titles .work-title {
+  color: #255B8A;
+}
+.beigeNblue .works-wrap .work-content .work-titles .work-icons svg {
+  fill: #255B8A;
+}
+.beigeNblue .works-wrap .work-content .work-desc {
+  color: #255B8A;
+}
+.beigeNblue .works-wrap .swiper-pagination {
+  color: #EBE7CF;
+}
+.beigeNblue .footer-wrap {
+  background: #EBE7CF;
+}
+.beigeNblue .footer-wrap .footer-sign {
+  color: #F3F0DF;
+}
+.beigeNblue .footer-wrap .footer-box-title {
+  color: #255B8A;
+}
+.beigeNblue .footer-wrap .footer-box-text {
+  color: #255B8A;
+}
+
 .pinkNgold {
   background: #FFF4F2;
 }
@@ -664,6 +869,15 @@ a {
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-photo-line {
   border: 1px solid #DFB669;
+}
+.pinkNgold .about-wrap .about-inner .about-promise {
+  color: #414141;
+}
+.pinkNgold .about-wrap .about-inner .about-name-ko,
+.pinkNgold .about-wrap .about-inner .about-name-en,
+.pinkNgold .about-wrap .about-inner .personal-title,
+.pinkNgold .about-wrap .about-inner .personal-info {
+  color: #414141;
 }
 .pinkNgold .abilities-wrap .abibox-title .abibox-title-back {
   color: #FFE1E3;
@@ -714,190 +928,6 @@ a {
 }
 .pinkNgold .footer-wrap .footer-box-text {
   color: #414141;
-}
-
-.beigeNblue {
-  background: #F3F0DF;
-}
-.beigeNblue .nav-wrap .nav-logo > a {
-  color: #255B8A;
-}
-.beigeNblue .nav-wrap .nav-list li .nav-btn {
-  color: #255B8A;
-}
-.beigeNblue .nav-wrap .nav-list li .nav-btn-on {
-  color: #E17858;
-}
-.beigeNblue .intro-wrap .intro-back-rect {
-  background: #EBE7CF;
-}
-.beigeNblue .intro-wrap .intro-back-text {
-  -webkit-text-stroke: 0.5px #255B8A;
-  -webkit-text-fill-color: transparent;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-slogan {
-  color: #E17858;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
-  color: #255B8A;
-  border: solid 0.5px #EBE7CF;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
-  color: #E17858;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
-  width: 100%;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
-  fill: #E17858;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
-  fill: #255B8A;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-back {
-  background: #F3F0DF;
-}
-.beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-line {
-  border: 1px solid #E17858;
-}
-.beigeNblue .abilities-wrap .abibox-title .abibox-title-back {
-  color: #EBE7CF;
-  transition: all 0.3s;
-}
-.beigeNblue .abilities-wrap .abibox-title .abibox-title-back:hover {
-  -webkit-text-stroke: 1px #E17858;
-  -webkit-text-fill-color: transparent;
-}
-.beigeNblue .abilities-wrap .abibox-title .abibox-icon-list li svg {
-  fill: #255B8A;
-}
-.beigeNblue .abilities-wrap .abibox-content {
-  margin-top: 1.563rem;
-}
-.beigeNblue .abilities-wrap .abibox-content-info .abibox-content-program {
-  color: #255B8A;
-}
-.beigeNblue .works-wrap .works-back-text {
-  color: #EBE7CF;
-}
-.beigeNblue .works-wrap .work-slide {
-  box-shadow: 0px 0px 24px 5px #EBE7CF;
-}
-.beigeNblue .works-wrap .work-content .work-titles .work-title {
-  color: #255B8A;
-}
-.beigeNblue .works-wrap .work-content .work-titles .work-icons svg {
-  fill: #255B8A;
-}
-.beigeNblue .works-wrap .work-content .work-desc {
-  color: #255B8A;
-}
-.beigeNblue .works-wrap .swiper-pagination {
-  color: #EBE7CF;
-}
-.beigeNblue .footer-wrap {
-  background: #EBE7CF;
-}
-.beigeNblue .footer-wrap .footer-sign {
-  color: #F3F0DF;
-}
-.beigeNblue .footer-wrap .footer-box-title {
-  color: #255B8A;
-}
-.beigeNblue .footer-wrap .footer-box-text {
-  color: #255B8A;
-}
-
-.deepGreen {
-  background: #F9F8F6;
-}
-.deepGreen .nav-wrap .nav-logo > a {
-  color: #5D633F;
-}
-.deepGreen .nav-wrap .nav-list li .nav-btn {
-  color: #5D633F;
-}
-.deepGreen .nav-wrap .nav-list li .nav-btn-on {
-  color: #DB874B;
-}
-.deepGreen .intro-wrap .intro-back-rect {
-  background: #F1EEEB;
-}
-.deepGreen .intro-wrap .intro-back-text {
-  -webkit-text-stroke: 0.5px #5D633F;
-  -webkit-text-fill-color: transparent;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-slogan {
-  color: #DB874B;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
-  color: #5D633F;
-  border: solid 0.5px #F1EEEB;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
-  color: #DB874B;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
-  width: 100%;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
-  fill: #DB874B;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
-  fill: #5D633F;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-back {
-  background: #F9F8F6;
-}
-.deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-line {
-  border: 1px solid #DB874B;
-}
-.deepGreen .abilities-wrap .abibox-title .abibox-title-back {
-  color: #F1EEEB;
-  transition: all 0.3s;
-}
-.deepGreen .abilities-wrap .abibox-title .abibox-title-back:hover {
-  -webkit-text-stroke: 1px #DB874B;
-  -webkit-text-fill-color: transparent;
-}
-.deepGreen .abilities-wrap .abibox-title .abibox-icon-list li svg {
-  fill: #5D633F;
-}
-.deepGreen .abilities-wrap .abibox-content {
-  margin-top: 1.563rem;
-}
-.deepGreen .abilities-wrap .abibox-content-info .abibox-content-program {
-  color: #5D633F;
-}
-.deepGreen .works-wrap .works-back-text {
-  color: #F1EEEB;
-}
-.deepGreen .works-wrap .work-slide {
-  box-shadow: 0px 0px 24px 5px #F1EEEB;
-}
-.deepGreen .works-wrap .work-content .work-titles .work-title {
-  color: #5D633F;
-}
-.deepGreen .works-wrap .work-content .work-titles .work-icons svg {
-  fill: #5D633F;
-}
-.deepGreen .works-wrap .work-content .work-desc {
-  color: #5D633F;
-}
-.deepGreen .works-wrap .swiper-pagination {
-  color: #F1EEEB;
-}
-.deepGreen .footer-wrap {
-  background: #F1EEEB;
-}
-.deepGreen .footer-wrap .footer-sign {
-  color: #F9F8F6;
-}
-.deepGreen .footer-wrap .footer-box-title {
-  color: #5D633F;
-}
-.deepGreen .footer-wrap .footer-box-text {
-  color: #5D633F;
 }
 
 @media screen and (max-width: 1440px) {

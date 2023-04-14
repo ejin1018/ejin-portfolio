@@ -1,6 +1,5 @@
 import React,{ useEffect } from 'react';
 import { Reset } from 'styled-reset';
-import { Routes,Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
 import About from './Components/About';
@@ -36,9 +35,6 @@ function App() {
   },[])
   return (
     <>
-      <Routes>
-        <Route to="/" element={<App/>} />
-      </Routes>
       <Reset />
       <div className='colorTheme deepGreen'>
         <Header />

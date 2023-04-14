@@ -12,13 +12,13 @@ const Header = ()=>{
           <Link to="/" className="nav-btn nav-btn-on">INTRO</Link>
         </li>
         <li>
+          <Link to="/" className="nav-btn">ABOUT</Link>
+        </li>
+        <li>
           <Link to="/" className="nav-btn">ABILITY</Link>
         </li>
         <li>
           <Link to="/" className="nav-btn">WORKS</Link>
-        </li>
-        <li>
-          <Link to="/" className="nav-btn">SAMPLE</Link>
         </li>
       </ul>
     </nav>

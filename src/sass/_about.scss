@@ -22,7 +22,7 @@
           word-break: keep-all;
           line-height: 1.75;
           font-size: 1.3rem;
-          font-weight: 800;
+          font-weight: 400;
           text-align: center;
         }
       }
@@ -43,21 +43,22 @@
       }
       &-bottom{
         text-align: center;
-        .personal-infos{
-          margin-bottom: 1.8rem;
-        }
-        .personal-title{
-          font-size: 0.9rem;
-          font-weight: 600;
-          margin-bottom: 0.4rem;
-        }
-        .personal-info{
-          font-size: 0.9rem;
-          font-weight: 300;
-          margin-bottom: 0.625rem;
-        }
         .more-infos{
-          display: none;
+          width: 50%;
+          margin: 0 auto;
+          .personal-title{
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            margin-right: 0.5rem;
+          }
+          .personal-info{
+            @include flexBetween;
+            font-size: 0.9rem;
+            font-weight: 300;
+            margin-bottom: 0.625rem;
+            text-align: right;
+          }
         }
       }
     }

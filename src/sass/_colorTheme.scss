@@ -1,8 +1,8 @@
-.pinkNgold{
-  $normal-color: #414141;
-  $base-color:#FFF4F2;
-  $second-color:#FFE1E3;
-  $point-color: #DFB669;
+.deepGreen{
+  $normal-color: #5D633F;
+  $base-color:#F9F8F6;
+  $second-color:#F1EEEB;
+  $point-color: #DB874B;
 
   background: $base-color;
 
@@ -23,7 +23,6 @@
       }
     }
   }
-
   .intro-wrap{
     .intro-back-rect{
       background: $second-color;
@@ -68,7 +67,19 @@
       }
     }
   }
-
+  .about-wrap{
+    .about-inner{
+      .about-promise{
+        color: $normal-color;
+      }
+      .about-name-ko,
+      .about-name-en,
+      .personal-title,
+      .personal-info{
+        color: $normal-color;
+      }
+    }
+  }
   .abilities-wrap{
     .abibox-title{
       .abibox-title-back{
@@ -82,7 +93,7 @@
       .abibox-icon-list{
         li{
           svg{
-            fill:$point-color;
+            fill:$normal-color;
           }
         }
       }
@@ -96,20 +107,12 @@
       }
     }
   }
-
   .works-wrap{
     .works-back-text{
       color: $second-color;
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
-    }
-    .slide-blur-box{
-      .work-slide-qr{
-        .work-slide-qr-text{
-          color: $normal-color;
-        }
-      }
     }
     .work-content{
       .work-titles{
@@ -216,6 +219,19 @@
       }
     }
   }
+  .about-wrap{
+    .about-inner{
+      .about-promise{
+        color: $normal-color;
+      }
+      .about-name-ko,
+      .about-name-en,
+      .personal-title,
+      .personal-info{
+        color: $normal-color;
+      }
+    }
+  }
   .abilities-wrap{
     .abibox-title{
       .abibox-title-back{
@@ -286,11 +302,11 @@
   }
 }
 
-.deepGreen{
-  $normal-color: #5D633F;
-  $base-color:#F9F8F6;
-  $second-color:#F1EEEB;
-  $point-color: #DB874B;
+.pinkNgold{
+  $normal-color: #414141;
+  $base-color:#FFF4F2;
+  $second-color:#FFE1E3;
+  $point-color: #DFB669;
 
   background: $base-color;
 
@@ -355,6 +371,19 @@
       }
     }
   }
+  .about-wrap{
+    .about-inner{
+      .about-promise{
+        color: $normal-color;
+      }
+      .about-name-ko,
+      .about-name-en,
+      .personal-title,
+      .personal-info{
+        color: $normal-color;
+      }
+    }
+  }
   .abilities-wrap{
     .abibox-title{
       .abibox-title-back{
@@ -368,7 +397,7 @@
       .abibox-icon-list{
         li{
           svg{
-            fill:$normal-color;
+            fill:$point-color;
           }
         }
       }
@@ -382,12 +411,20 @@
       }
     }
   }
+
   .works-wrap{
     .works-back-text{
       color: $second-color;
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
+    }
+    .slide-blur-box{
+      .work-slide-qr{
+        .work-slide-qr-text{
+          color: $normal-color;
+        }
+      }
     }
     .work-content{
       .work-titles{
