@@ -8,7 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Scene() {
   const component = useRef();
   const slider = useRef();
-  const slideBox = useRef();
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
@@ -32,10 +31,21 @@ export default function Scene() {
       <h2 className='hidden-title'>Works - 작업물</h2>
       <div ref={slider} className="works-container">
         <p className='en works-back-text'>WORKS</p>
-        <div ref={slideBox} className="panel">
+        <div className="panel">
           <div className='work-slide'>
-            <div onClick={()=>{window.open('https://one-trip.vercel.app/','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('https://one-trip.vercel.app/','_blank')}}>
+              <p className='work-numbering en'>01</p>
               <img src='/images/works/onetrip-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
+              <div className='work-slide-go'>
+                <div className='work-slide-go-link'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M7.024 2.31a9.08 9.08 0 0 1 2.125 1.046A11.432 11.432 0 0 1 12 3c.993 0 1.951.124 2.849.355a9.08 9.08 0 0 1 2.124-1.045c.697-.237 1.69-.621 2.28.032c.4.444.5 1.188.571 1.756c.08.634.099 1.46-.111 2.28C20.516 7.415 21 8.652 21 10c0 2.042-1.106 3.815-2.743 5.043a9.456 9.456 0 0 1-2.59 1.356c.214.49.333 1.032.333 1.601v3a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-.991c-.955.117-1.756.013-2.437-.276c-.712-.302-1.208-.77-1.581-1.218c-.354-.424-.74-1.38-1.298-1.566a1 1 0 0 1 .632-1.898c.666.222 1.1.702 1.397 1.088c.48.62.87 1.43 1.63 1.753c.313.133.772.22 1.49.122L8 17.98a3.986 3.986 0 0 1 .333-1.581a9.455 9.455 0 0 1-2.59-1.356C4.106 13.815 3 12.043 3 10c0-1.346.483-2.582 1.284-3.618c-.21-.82-.192-1.648-.112-2.283l.005-.038c.073-.582.158-1.267.566-1.719c.59-.653 1.584-.268 2.28-.031Z"/></g></svg>
+                  <p>깃허브 바로가기</p>
+                </div>
+                <div className='work-slide-go-link'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M19 4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14Zm0 6H5v7a1 1 0 0 0 .883.993L6 18h12a1 1 0 0 0 .993-.883L19 17v-7ZM6 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2Zm3 0a1 1 0 1 0 0 2a1 1 0 0 0 0-2Zm3 0a1 1 0 1 0 0 2a1 1 0 0 0 0-2Z"/></g></svg>
+                  <p>원트립 바로가기</p>
+                </div>
+              </div>
             </div>
             <div className='work-content'>
               <div className='work-titles'>
@@ -59,8 +69,8 @@ export default function Scene() {
                   <p className='work-desc-box-text'>3주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>디자인 80%,<br/>프론트 60%</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>25 %</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
@@ -70,8 +80,9 @@ export default function Scene() {
             </div>
           </div>
           <div className='work-slide'>
-            <div className='slide-blur-box'>
+            <div className='slide-blur-box work-slide-img-box'>
               <div className='work-slide-img-blur'></div>
+              <p className='work-numbering en'>02</p>
               <img className='work-slide-img' src='/images/works/onetrip-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' />
               <video className='work-slide-video' src={onetripApp} muted autoPlay loop />
               <div className='work-slide-qr'>
@@ -100,8 +111,8 @@ export default function Scene() {
                   <p className='work-desc-box-text'>1주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>디자인 100%<br/>프론트 100%</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>100%</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
@@ -113,7 +124,8 @@ export default function Scene() {
         </div>
         <div className="panel">
           <div className="work-slide">
-            <div onClick={()=>{window.open('https://ejin1018.github.io/ticatalk/','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('https://ejin1018.github.io/ticatalk/','_blank')}}>
+            <p className='work-numbering en'>03</p>
               <img src='/images/works/ticatalk-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
@@ -134,14 +146,15 @@ export default function Scene() {
                   <p className='work-desc-box-text'>4주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>기획 20%<br/> 디자인 80%<br/> 프론트 75%</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>20%</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="work-slide">
-            <div onClick={()=>{window.open('https://ejin1018.github.io/ejin-museum/','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('https://ejin1018.github.io/ejin-museum/','_blank')}}>
+            <p className='work-numbering en'>04</p>
               <img src='/images/works/museum-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
@@ -161,8 +174,8 @@ export default function Scene() {
                   <p className='work-desc-box-text'>5주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>100% 하드코딩 <br/> 기획, 디자인, 개발</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>100%</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
@@ -174,7 +187,8 @@ export default function Scene() {
         </div>
         <div className="panel">
           <div className="work-slide">
-            <div onClick={()=>{window.open('http://ejin.dothome.co.kr/museum/index.php','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('http://ejin.dothome.co.kr/museum/index.php','_blank')}}>
+              <p className='work-numbering en'>05</p>
               <img src='/images/works/museumphp-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
@@ -195,6 +209,10 @@ export default function Scene() {
                   <p className='work-desc-box-text'>2주</p>
                 </div>
                 <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>100%</p>
+                </div>
+                <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>php를 통해 CRUD 구현</p>
                 </div>
@@ -202,7 +220,8 @@ export default function Scene() {
             </div>
           </div>
           <div className="work-slide">
-            <div onClick={()=>{window.open('https://ejin1018.github.io/ejin-nest/','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('https://ejin1018.github.io/ejin-nest/','_blank')}}>
+              <p className='work-numbering en'>06</p>
               <img src='/images/works/nest-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
@@ -222,8 +241,8 @@ export default function Scene() {
                   <p className='work-desc-box-text'>4주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>100% 하드코딩 <br/> 기획, 디자인, 개발</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>100%</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
@@ -235,7 +254,8 @@ export default function Scene() {
         </div>
         <div className="panel">
           <div className="work-slide">
-            <div onClick={()=>{window.open('http://sorrytree.kr/','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('http://sorrytree.kr/','_blank')}}>
+              <p className='work-numbering en'>07</p>
               <img src='/images/works/sorrytree-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
@@ -255,18 +275,19 @@ export default function Scene() {
                   <p className='work-desc-box-text'>2주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>프론트 100%</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>50%</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
-                  <p className='work-desc-box-text'>워드프레스 기반으로 프론트 작업을 진행한 개인 외주 작업</p>
+                  <p className='work-desc-box-text'>디자인을 제공받아 코딩한 프리랜서 작업물</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="work-slide">
-            <div onClick={()=>{window.open('https://ejin-hedarchive.web.app/','_blank')}}>
+            <div className='work-slide-img-box' onClick={()=>{window.open('https://ejin-hedarchive.web.app/','_blank')}}>
+              <p className='work-numbering en'>08</p>
               <img src='/images/works/hed-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' className='work-slide-img' />
             </div>
             <div className='work-content'>
@@ -285,8 +306,8 @@ export default function Scene() {
                   <p className='work-desc-box-text'>4주</p>
                 </div>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>기여도</p>
-                  <p className='work-desc-box-text'>100% 하드코딩 <br/> 기획, 디자인, 개발</p>
+                  <p className='work-desc-box-title'>본인 기여도</p>
+                  <p className='work-desc-box-text'>100%</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>

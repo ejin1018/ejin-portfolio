@@ -35,10 +35,38 @@
       width: 40%;
       padding: 1.2rem;
     }
-    .work-slide-img{
-      display: block;
-      width: 100%;
-      cursor: pointer;
+    .work-slide-img-box{
+      @include relativeZero;
+      .work-numbering{
+        position: absolute;
+        top: -2.55rem;
+        left: -2rem;
+        font-size: 3.2rem;
+        font-weight: 900;
+        transform: skewY(-7deg);
+      }
+      .work-slide-img{
+        display: block;
+        width: 100%;
+      }
+      .work-slide-go{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width:100%;
+        height: 0%;
+        opacity: 0.7;
+        transition: all .4s;
+        overflow: hidden;
+        svg{
+          width: 1rem;
+        }
+      }
+      &:hover{
+        .work-slide-go{
+          height: 100%
+        }
+      }
     }
     .slide-blur-box{
       @include relativeZero;

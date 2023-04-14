@@ -113,6 +113,12 @@
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
+      .work-numbering{
+        color: $normal-color;
+      }
+      .work-slide-go{
+        background: $base-color;
+      }
     }
     .work-content{
       .work-titles{

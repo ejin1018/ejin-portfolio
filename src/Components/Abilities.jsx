@@ -26,16 +26,16 @@ const Abilities = ()=>{
               <p className='abibox-content-text'>아이콘, 일러스트, 그래픽 제작 가능</p>
             </div>
             <div className='abibox-content-info'>
-              <p className='abibox-content-program'>ADOBE XD</p>
-              <p className='abibox-content-text'>웹 디자인, ‘네스트호텔 리뉴얼’ 작업</p>
-            </div>
-            <div className='abibox-content-info'>
               <p className='abibox-content-program'>FIGMA</p>
               <p className='abibox-content-text'>웹 디자인, 프로토타입 작업 가능</p>
             </div>
             <div className='abibox-content-info'>
-              <p className='abibox-content-program'>ant design, bootstrap, threeJs</p>
-              <p className='abibox-content-text'>빠른 작업을 위한 앤트 디자인,부트스트랩 사용 가능,three js로 심플한 3d 요소 삽입 가능</p>
+              <p className='abibox-content-program'>Ant Design, Bootstrap</p>
+              <p className='abibox-content-text'>빠른 작업을 위한 앤트 디자인,부트스트랩 사용 가능</p>
+            </div>
+            <div className='abibox-content-info'>
+              <p className='abibox-content-program'>ThreeJs</p>
+              <p className='abibox-content-text'>three js로 심플한 3d 요소 삽입 가능</p>
             </div>
           </div>
         </div>
@@ -57,15 +57,15 @@ const Abilities = ()=>{
           <div className='abibox-content'>
             <div className='abibox-content-info'>
               <p className='abibox-content-program'>HTML</p>
-              <p className='abibox-content-text'>웹 표준과 접근성 준수, 시맨틱 마크업</p>
+              <p className='abibox-content-text'>웹 표준과 접근성을 준수한 시맨틱 마크업</p>
             </div>
             <div className='abibox-content-info'>
               <p className='abibox-content-program'>CSS</p>
-              <p className='abibox-content-text'>안정적인 크로스 브라우징을 위해 position과 float을 활용한 배치에 능숙 flex를 활용한 레이아웃 작업 또한 가능</p>
+              <p className='abibox-content-text'>안정적인 크로스 브라우징을 위해 position과 float을 활용한 배치에 능숙하며 flex를 활용한 레이아웃 작업 또한 가능</p>
             </div>
             <div className='abibox-content-info'>
               <p className='abibox-content-program'>SASS</p>
-              <p className='abibox-content-text'>적절한 mixin 사용과 깔끔한 파일 정리로 유지, 보수에 편리한 작업 가능</p>
+              <p className='abibox-content-text'>적절한 mixin 사용과 깔끔한 파일 정리로 유지·보수에 편리한 작업 가능</p>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Abilities = ()=>{
           <div className='abibox-content'>
             <div className='abibox-content-info'>
               <p className='abibox-content-program'>VANILLA JAVASCRIPT</p>
-              <p className='abibox-content-text'>바닐라 자바스크립트를 활용한 인터렉션 ex.반응형 슬라이드 구현 가능</p>
+              <p className='abibox-content-text'>바닐라 자바스크립트를 활용한 인터렉션 &#40;ex.반응형 슬라이드 직접 구현 가능&#41;</p>
             </div>
             <div className='abibox-content-info'>
               <p className='abibox-content-program'>REACT</p>
