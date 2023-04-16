@@ -118,6 +118,11 @@
       }
       .work-slide-go{
         background: $base-color;
+        &-link{
+          svg, p{
+            color: $normal-color;
+          }
+        }
       }
     }
     .work-content{
@@ -139,7 +144,6 @@
       color: $second-color;
     }
   }
-  
   .footer-wrap{
     background: $second-color;
     .footer-sign{
@@ -271,6 +275,17 @@
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
+      .work-numbering{
+        color: $normal-color;
+      }
+      .work-slide-go{
+        background: $base-color;
+        &-link{
+          svg, p{
+            color: $normal-color;
+          }
+        }
+      }
     }
     .work-content{
       .work-titles{
@@ -291,7 +306,6 @@
       color: $second-color;
     }
   }
-  
   .footer-wrap{
     background: $second-color;
     .footer-sign{
@@ -417,18 +431,21 @@
       }
     }
   }
-
   .works-wrap{
     .works-back-text{
       color: $second-color;
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
-    }
-    .slide-blur-box{
-      .work-slide-qr{
-        .work-slide-qr-text{
-          color: $normal-color;
+      .work-numbering{
+        color: $normal-color;
+      }
+      .work-slide-go{
+        background: $base-color;
+        &-link{
+          svg, p{
+            color: $normal-color;
+          }
         }
       }
     }
@@ -451,7 +468,6 @@
       color: $second-color;
     }
   }
-  
   .footer-wrap{
     background: $second-color;
     .footer-sign{
