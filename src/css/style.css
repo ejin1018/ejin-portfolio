@@ -169,10 +169,12 @@ a {
 .intro-wrap .intro-inner .intro-buttons .intro-pf-link .intro-pf-icon {
   width: 1rem;
   margin-right: 0.45rem;
+  z-index: 1;
 }
 .intro-wrap .intro-inner .intro-buttons .intro-pf-link .intro-pf-name {
   font-size: 1.1rem;
   font-weight: 400;
+  z-index: 1;
 }
 .intro-wrap .intro-inner .intro-photo {
   position: relative;
@@ -695,11 +697,11 @@ a {
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
   color: #5D633F;
-  background: transparent;
   border: 1px solid #5D633F;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
   width: 100%;
+  background: #F9F8F6;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
   fill: #DB874B;
@@ -811,11 +813,11 @@ a {
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
   color: #255B8A;
-  background: transparent;
   border: 1px solid #255B8A;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
   width: 100%;
+  background: #F3F0DF;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
   fill: #E17858;
@@ -927,11 +929,11 @@ a {
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
   color: #414141;
-  background: transparent;
   border: 1px solid #414141;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
   width: 100%;
+  background: #FFF4F2;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
   fill: #DFB669;

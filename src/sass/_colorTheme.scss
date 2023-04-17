@@ -42,10 +42,10 @@
             background: $normal-color;
             &:hover{
               color: $normal-color;
-              background: transparent;
               border: 1px solid $normal-color;
               &::before{
                 width: 100%;
+                background:$base-color;
               }
               .intro-pf-icon{
                 fill: $point-color;
@@ -208,10 +208,10 @@
             background: $normal-color;
             &:hover{
               color: $normal-color;
-              background: transparent;
               border: 1px solid $normal-color;
               &::before{
                 width: 100%;
+                background:$base-color;
               }
               .intro-pf-icon{
                 fill: $point-color;
@@ -374,10 +374,10 @@
             background: $normal-color;
             &:hover{
               color: $normal-color;
-              background: transparent;
               border: 1px solid $normal-color;
               &::before{
                 width: 100%;
+                background:$base-color;
               }
               .intro-pf-icon{
                 fill: $point-color;

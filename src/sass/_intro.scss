@@ -77,15 +77,16 @@
           width: 0%;
           height: 100%;
           transition: all .4s;
-          // z-index: -1;
         }
         .intro-pf-icon{
           width: 1rem;
           margin-right: 0.45rem;
+          z-index: 1;
         }
         .intro-pf-name{
           font-size: 1.1rem;
           font-weight: 400;
+          z-index: 1;
         }
       }
     }
