@@ -144,7 +144,7 @@ a {
 .intro-wrap .intro-inner .intro-buttons {
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 2.8rem;
 }
 .intro-wrap .intro-inner .intro-buttons .intro-pf-link {
   display: flex;
@@ -152,6 +152,7 @@ a {
   margin-right: 0.7rem;
   padding: 0.5rem 0.4rem;
   overflow: hidden;
+  border: 1px solid transparent;
   position: relative;
   top: 0;
   left: 0;
@@ -163,9 +164,7 @@ a {
   left: 0;
   width: 0%;
   height: 100%;
-  background: #fff;
   transition: all 0.4s;
-  z-index: -1;
 }
 .intro-wrap .intro-inner .intro-buttons .intro-pf-link .intro-pf-icon {
   width: 1rem;
@@ -327,7 +326,7 @@ a {
   margin: 0 auto;
 }
 .about-wrap .about-inner .about-right-bottom .more-infos .personal-title {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
   margin-right: 0.5rem;
@@ -336,10 +335,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
   margin-bottom: 0.625rem;
   text-align: right;
+  line-height: 1.2;
 }
 
 a {
@@ -514,13 +514,14 @@ a {
   left: 0;
   width: 100%;
   height: 0%;
-  opacity: 0.9;
+  opacity: 1;
   transition: all 0.4s;
   overflow: hidden;
 }
 .works-wrap .panel .work-slide-img-box .work-slide-go-link {
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
   text-align: center;
+  border-radius: 15px;
   cursor: pointer;
 }
 .works-wrap .panel .work-slide-img-box .work-slide-go-link > svg {
@@ -689,11 +690,13 @@ a {
   color: #DB874B;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
-  color: #5D633F;
-  border: solid 0.5px #F1EEEB;
+  color: #F9F8F6;
+  background: #5D633F;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
-  color: #DB874B;
+  color: #5D633F;
+  background: transparent;
+  border: 1px solid #5D633F;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
   width: 100%;
@@ -702,7 +705,7 @@ a {
   fill: #DB874B;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
-  fill: #5D633F;
+  fill: #F9F8F6;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-back {
   background: #F9F8F6;
@@ -746,6 +749,10 @@ a {
   color: #5D633F;
 }
 .deepGreen .works-wrap .work-slide .work-slide-go {
+  background: #F9F8F6;
+}
+.deepGreen .works-wrap .work-slide .work-slide-go-link {
+  box-shadow: 0px 0px 10px -1px #DB874B;
   background: #F9F8F6;
 }
 .deepGreen .works-wrap .work-slide .work-slide-go-link svg, .deepGreen .works-wrap .work-slide .work-slide-go-link p {
@@ -799,11 +806,13 @@ a {
   color: #E17858;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
-  color: #255B8A;
-  border: solid 0.5px #EBE7CF;
+  color: #F3F0DF;
+  background: #255B8A;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
-  color: #E17858;
+  color: #255B8A;
+  background: transparent;
+  border: 1px solid #255B8A;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
   width: 100%;
@@ -812,7 +821,7 @@ a {
   fill: #E17858;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
-  fill: #255B8A;
+  fill: #F3F0DF;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-back {
   background: #F3F0DF;
@@ -856,6 +865,10 @@ a {
   color: #255B8A;
 }
 .beigeNblue .works-wrap .work-slide .work-slide-go {
+  background: #F3F0DF;
+}
+.beigeNblue .works-wrap .work-slide .work-slide-go-link {
+  box-shadow: 0px 0px 10px -1px #E17858;
   background: #F3F0DF;
 }
 .beigeNblue .works-wrap .work-slide .work-slide-go-link svg, .beigeNblue .works-wrap .work-slide .work-slide-go-link p {
@@ -909,11 +922,13 @@ a {
   color: #DFB669;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
-  color: #414141;
-  border: solid 0.5px #FFE1E3;
+  color: #FFF4F2;
+  background: #414141;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover {
-  color: #DFB669;
+  color: #414141;
+  background: transparent;
+  border: 1px solid #414141;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover::before {
   width: 100%;
@@ -922,7 +937,7 @@ a {
   fill: #DFB669;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
-  fill: #414141;
+  fill: #FFF4F2;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-contents .intro-photo-back {
   background: #FFF4F2;
@@ -966,6 +981,10 @@ a {
   color: #414141;
 }
 .pinkNgold .works-wrap .work-slide .work-slide-go {
+  background: #FFF4F2;
+}
+.pinkNgold .works-wrap .work-slide .work-slide-go-link {
+  box-shadow: 0px 0px 10px -1px #DFB669;
   background: #FFF4F2;
 }
 .pinkNgold .works-wrap .work-slide .work-slide-go-link svg, .pinkNgold .works-wrap .work-slide .work-slide-go-link p {

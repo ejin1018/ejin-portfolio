@@ -47,17 +47,18 @@
           width: 50%;
           margin: 0 auto;
           .personal-title{
-            font-size: 0.9rem;
+            font-size: 1rem;
             font-weight: 600;
             margin-bottom: 0.4rem;
             margin-right: 0.5rem;
           }
           .personal-info{
             @include flexBetween;
-            font-size: 0.9rem;
+            font-size: 1rem;
             font-weight: 300;
             margin-bottom: 0.625rem;
             text-align: right;
+            line-height: 1.2;
           }
         }
       }

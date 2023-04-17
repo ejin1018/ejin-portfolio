@@ -38,10 +38,12 @@
         }
         .intro-buttons{
           .intro-pf-link{
-            color: $normal-color;
-            border: solid 0.5px $second-color;
+            color: $base-color;
+            background: $normal-color;
             &:hover{
-              color: $point-color;
+              color: $normal-color;
+              background: transparent;
+              border: 1px solid $normal-color;
               &::before{
                 width: 100%;
               }
@@ -51,7 +53,7 @@
             }
             
             .intro-pf-icon{
-              fill: $normal-color;
+              fill: $base-color;
             }
           }
         }
@@ -119,6 +121,8 @@
       .work-slide-go{
         background: $base-color;
         &-link{
+          box-shadow:0px 0px 10px -1px $point-color;
+          background: $base-color;
           svg, p{
             color: $normal-color;
           }
@@ -200,10 +204,12 @@
         }
         .intro-buttons{
           .intro-pf-link{
-            color: $normal-color;
-            border: solid 0.5px $second-color;
+            color: $base-color;
+            background: $normal-color;
             &:hover{
-              color: $point-color;
+              color: $normal-color;
+              background: transparent;
+              border: 1px solid $normal-color;
               &::before{
                 width: 100%;
               }
@@ -213,7 +219,7 @@
             }
             
             .intro-pf-icon{
-              fill: $normal-color;
+              fill: $base-color;
             }
           }
         }
@@ -281,6 +287,8 @@
       .work-slide-go{
         background: $base-color;
         &-link{
+          box-shadow:0px 0px 10px -1px $point-color;
+          background: $base-color;
           svg, p{
             color: $normal-color;
           }
@@ -362,10 +370,12 @@
         }
         .intro-buttons{
           .intro-pf-link{
-            color: $normal-color;
-            border: solid 0.5px $second-color;
+            color: $base-color;
+            background: $normal-color;
             &:hover{
-              color: $point-color;
+              color: $normal-color;
+              background: transparent;
+              border: 1px solid $normal-color;
               &::before{
                 width: 100%;
               }
@@ -375,7 +385,7 @@
             }
             
             .intro-pf-icon{
-              fill: $normal-color;
+              fill: $base-color;
             }
           }
         }
@@ -443,6 +453,8 @@
       .work-slide-go{
         background: $base-color;
         &-link{
+          box-shadow:0px 0px 10px -1px $point-color;
+          background: $base-color;
           svg, p{
             color: $normal-color;
           }
