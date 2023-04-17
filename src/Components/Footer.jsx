@@ -19,10 +19,10 @@ const Footer = ()=>{
         </div>
         <div className="footer-box">
           <p className="en footer-box-title">Remember! My-</p>
-          <p className="en footer-box-text">Intro</p>
-          <p className="en footer-box-text">Abilities</p>
-          <p className="en footer-box-text">Works</p>
-          <p className="en footer-box-text">Pieces</p>
+          <Link to="/" className="en footer-box-text nav-btn">Intro</Link>
+          <Link to="/" className="en footer-box-text nav-btn">Abilities</Link>
+          <Link to="/" className="en footer-box-text nav-btn">Works</Link>
+          <Link to="/" className="en footer-box-text nav-btn">Pieces</Link>
         </div>
       </div>
     </section>

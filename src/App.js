@@ -32,6 +32,60 @@ function App() {
         }
       })
     })
+
+    let sections = document.querySelectorAll('section');
+    let menus = document.querySelectorAll('.nav-btn');
+    menus.forEach((menu,index)=>{
+      menu.addEventListener('click',function(){
+        if(index === 0 || index === 4){
+          window.scrollTo({
+            top:0,
+            behavior:'smooth'
+          })
+        }else if(index === 1 || index === 5){
+          window.scrollTo({
+            top:sections[1].offsetTop,
+            behavior:'smooth'
+          })
+        }else if(index === 2 || index === 6){
+          window.scrollTo({
+            top:sections[2].offsetTop,
+            behavior:'smooth'
+          })
+        }else if(index === 3 || index === 7){
+          window.scrollTo({
+            top:sections[3].offsetTop,
+            behavior:'smooth'
+          })
+        }
+      })
+    })
+
+    window.addEventListener('scroll',function(){
+
+      let nowY = window.scrollY;
+      if(nowY < sections[1].offsetTop){
+        menus.forEach((menu)=>{
+          menu.classList.remove('nav-btn-on');
+        })
+        menus[0].classList.add('nav-btn-on');
+      }else if(nowY < sections[2].offsetTop){
+        menus.forEach((menu)=>{
+          menu.classList.remove('nav-btn-on');
+        })
+        menus[1].classList.add('nav-btn-on');
+      }else if(nowY < sections[3].offsetTop){
+        menus.forEach((menu)=>{
+          menu.classList.remove('nav-btn-on');
+        })
+        menus[2].classList.add('nav-btn-on');
+      }else{
+        menus.forEach((menu)=>{
+          menu.classList.remove('nav-btn-on');
+        })
+        menus[3].classList.add('nav-btn-on');
+      }
+    })
   },[])
   return (
     <>
