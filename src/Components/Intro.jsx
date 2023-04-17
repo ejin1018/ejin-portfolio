@@ -22,7 +22,7 @@ const Intro = ()=>{
             </h2>
             <div className="intro-buttons">
               <Link 
-                to='https://ej-note.notion.site/7cd5f540e7ab4f979e273a1cad064873?v=f0d75044d5234cab8dfad9f221be47ce' 
+                to='https://ejin1018.github.io/ejin-portfolio/ejin-resume.pdf' 
                 target={'_blank'} 
                 className="intro-pf-link"
               >
