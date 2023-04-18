@@ -1103,4 +1103,75 @@ a {
   .abilities-wrap .abilities-inner .abilities-box .abibox-title .abibox-icon-list li {
     margin-right: 0.6rem;
   }
+}
+@media screen and (max-width: 579px) {
+  html, body {
+    font-size: 14px !important;
+  }
+  .intro-wrap .intro-back-rect {
+    top: -70%;
+  }
+  .intro-wrap .intro-inner .intro-contents {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100vh;
+    transform: none;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan {
+    font-size: 2.1rem;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-buttons {
+    transform: skewY(-7deg);
+    margin-top: 1.2rem;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-photo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .about-wrap .about-inner .about-right-top .canvas-wrap {
+    top: -85%;
+  }
+  .about-wrap .about-inner .about-right-bottom .more-infos {
+    width: 100%;
+  }
+  .about-wrap .about-inner .about-right-bottom .more-infos .personal-info-text {
+    max-width: 65%;
+  }
+  .works-wrap .works-container {
+    width: 1000vw;
+  }
+  .works-wrap .panel {
+    width: 200vw;
+  }
+  .footer-wrap {
+    padding: 7rem 0;
+  }
+  .footer-wrap .footer-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+  }
+  .footer-wrap .footer-inner .footer-sign {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) skewY(-7deg);
+  }
+  .footer-wrap .footer-inner .footer-box {
+    margin-bottom: 1.2rem;
+    z-index: 1;
+  }
+  .footer-wrap .footer-inner .footer-box .footer-box-text:last-child {
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

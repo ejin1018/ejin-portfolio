@@ -67,3 +67,97 @@
     }
   }
 }
+@media screen and (max-width:579px) {
+  html,body{
+    font-size: 14px !important;
+  }
+
+  // intro
+  .intro-wrap{
+    .intro-back-rect{
+      top: -70%;
+    }
+    .intro-inner{
+      .intro-contents{
+        @include relativeZero;
+        display: block;
+        height: 100vh;
+        transform: none;
+        .intro-sayhi{
+          width: 100%;
+          height: 85%;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          flex-direction: column;
+          display: flex;
+          justify-content: space-between;
+          .intro-slogan{
+            font-size: 2.1rem;
+          }
+          .intro-buttons{
+            transform: skewY(-7deg);
+            margin-top: 1.2rem;
+          }
+        }
+        .intro-photo{
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+
+  // about
+  .about-wrap {
+    .about-inner {
+      .about-right-top{
+        .canvas-wrap{
+          top: -85%;
+        }
+      }
+      .about-right-bottom {
+        .more-infos{
+          width: 100%;
+          .personal-info-text{
+            max-width: 65%;
+          }
+        }
+      }
+    }
+  }
+
+  // works
+  .works-wrap{
+    .works-container{
+      width: 1000vw;
+    }
+    .panel{
+      width: 200vw;
+    }
+  } 
+
+  // footer
+  .footer-wrap{
+    padding: 7rem 0;
+    .footer-inner{
+      @include relativeZero;
+      flex-direction: column;
+      .footer-sign{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%) skewY(-7deg);
+      }
+      .footer-box{
+        margin-bottom: 1.2rem;
+        z-index: 1;
+        .footer-box-text:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
