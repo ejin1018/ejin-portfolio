@@ -71,6 +71,11 @@
             height: 2.3rem;
             margin-bottom: 0.2rem;
           }
+          .work-slide-qr-img{
+            width: 4.8rem;
+            height: 4.8rem;
+            margin-bottom: 0.2rem;
+          }
           > p{
             font-size: 1rem;
             line-height: 1.2;
@@ -101,24 +106,6 @@
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-      }
-      .work-slide-qr{
-        position: absolute;
-        top: 0.625rem;
-        right: 0.625rem;
-        width: 3.8rem;
-        background-color: #fff;
-        padding: 0.625rem;
-        border-radius: 0.5rem;
-        &-img{
-          width: 100%;
-        }
-        &-text{
-          font-size: 0.9rem;
-          line-height: 1.25;
-          text-align: center;
-          word-break: keep-all;
-        }
       }
     }
     .work-content{

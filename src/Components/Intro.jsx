@@ -55,15 +55,16 @@ const Intro = ()=>{
           </div>
         </section>
         <div className="intro-bottom">
+          <p className="colorTheme-here en">Choose Your Color!</p>
           <ul className="colorTheme-btns">
             <li>
-              <Link to="/" className="deepGreen colorTheme-btn">1</Link>
+              <Link to="/" className="deepGreen colorTheme-btn"></Link>
             </li>
             <li>
-              <Link to="/" className="beigeNblue colorTheme-btn">2</Link>
+              <Link to="/" className="beigeNblue colorTheme-btn"></Link>
             </li>
             <li>
-              <Link to="/" className="pinkNgold colorTheme-btn">3</Link>
+              <Link to="/" className="pinkNgold colorTheme-btn"></Link>
             </li>
           </ul>
         </div>

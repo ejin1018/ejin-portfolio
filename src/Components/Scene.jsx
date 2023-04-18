@@ -85,9 +85,11 @@ export default function Scene() {
               <p className='work-numbering en'>02</p>
               <img className='work-slide-img' src='/images/works/onetrip-sc.png' alt='첫번째 프로젝트 원트립 홈페이지의 스크린샷' />
               <video className='work-slide-video' src={onetripApp} muted autoPlay loop />
-              <div className='work-slide-qr'>
-                <img className='work-slide-qr-img' src='/images/works/oneTripAppQR.svg' alt='원트립 앱 apk 다운로드 qr코드'/>
-                <p className='work-slide-qr-text'>apk 다운로드</p>
+              <div className='work-slide-go'>
+                <div className='work-slide-go-link' onClick={()=>{window.open('https://github.com/kimminjung96/OneTrip','_blank')}}>
+                  <img className='work-slide-qr-img' src='/images/works/oneTripAppQR.svg' alt='원트립 앱 apk 다운로드 qr코드'/>
+                  <p>apk 다운로드</p>
+                </div>
               </div>
             </div>
             <div className='work-content'>

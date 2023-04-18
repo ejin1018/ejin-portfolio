@@ -44,21 +44,33 @@
       &-bottom{
         text-align: center;
         .more-infos{
-          width: 50%;
+          width: 65%;
           margin: 0 auto;
-          .personal-title{
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: 0.4rem;
-            margin-right: 0.5rem;
-          }
           .personal-info{
             @include flexBetween;
-            font-size: 1rem;
-            font-weight: 300;
+            width: 100%;
+            font-size: 1.1rem;
             margin-bottom: 0.625rem;
-            text-align: right;
-            line-height: 1.2;
+            &-title{
+              width: 25%;
+              font-weight: 600;
+              text-align: left;
+            }
+            &-text{
+              min-width: 60%;
+              font-weight: 300;
+              text-align: left;
+              line-height: 1.2;
+            }
+            .lsp-four{
+              letter-spacing: 0.05rem;
+            }
+            .lsp-three{
+              letter-spacing: 0.5rem;
+            }
+            .lsp-two{
+              letter-spacing: 1.99rem;
+            }
           }
         }
       }

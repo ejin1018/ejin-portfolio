@@ -116,10 +116,17 @@
       }
     }
     .intro-bottom{
-      position: absolute;
+      position: fixed;
       bottom: 1.250rem;
-      right: 0;
-      @include flexCenter;
+      left: 1.250rem;
+      .colorTheme-here{
+        position: absolute;
+        top: -62%;
+        left: 0;
+        width: 115%;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
       .colorTheme-btns{
         @include flexBetween;
         li{
@@ -129,18 +136,25 @@
           margin-right: 0;
         }
         .pinkNgold{
-          color: #DFB669;
           background: #FFE1E3;
+          &::before{
+            background: #DFB669;
+          }
         }
         .beigeNblue{
-          color: #255B8A;
-          background: #EBE7CF;
+          background: #255B8A;
+          &::before{
+            background: #EBE7CF;
+          }
         }
         .deepGreen{
-          color: #F9F8F6;
           background: #5D633F;
+          &::before{
+            background: #DB874B;
+          }
         }
         .colorTheme-btn{
+          @include relativeZero;
           display: block;
           width: 1.875rem;
           height: 1.875rem;
@@ -149,15 +163,19 @@
           text-align: center;
           font-size: 0.9rem;
           font-weight: 700;
+          transform: rotate(-45deg);
+          transform-origin: center center;
+          &::before{
+            content: '';
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 1.875rem 0 0  1.875rem;
+          }
         }
       }
     }
-    // .canvas-wrap{
-    //   position: absolute;
-    //   right: 15%;
-    //   top: 15%;
-    //   width: 19rem;
-    //   height: 13rem;
-    // }
   }
 }

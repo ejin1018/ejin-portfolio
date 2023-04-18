@@ -42,24 +42,24 @@ const About = ()=>{
           <div className="about-right-bottom">
             <div className="more-infos">
               <p className="personal-info">
-                <span className="personal-title">생년월일</span>
-                1995. 10. 18
+                <span className="personal-info-title lsp-four">생년월일</span>
+                <span className="personal-info-text">1995. 10. 18</span>
               </p>
               <p className="personal-info">
-                <span className="personal-title">연락처</span>
-                01040175006
+                <span className="personal-info-title lsp-three">연락처</span>
+                <span className="personal-info-text">01040175006</span>
               </p>
               <p className="personal-info">
-                <span className="personal-title">이메일</span>
-                wwijin95@gmail.com
+                <span className="personal-info-title lsp-three">이메일</span>
+                <span className="personal-info-text">wwijin95@gmail.com</span>
               </p>
               <p className="personal-info">
-                <span className="personal-title">학력</span>
-                2018.02<br/>공주대학교 시각디자인 전공 졸업
+                <span className="personal-info-title lsp-two">학력</span>
+                <span className="personal-info-text">2018.02<br/>공주대학교 시각디자인 전공 졸업</span>
               </p>
               <p className="personal-info">
-                <span className="personal-title">자격증</span>
-                2023.04<br/>SQL 개발자
+                <span className="personal-info-title lsp-three">자격증</span>
+                <span className="personal-info-text">2023.04 SQL 개발자</span>
               </p>
             </div>
           </div>
