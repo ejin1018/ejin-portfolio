@@ -17,6 +17,15 @@
 *.sass.map
 *.scss.map
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
 # misc
 .DS_Store
 .env.local
