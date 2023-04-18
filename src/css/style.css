@@ -209,17 +209,16 @@ a {
   left: 1.25rem;
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-here {
-  position: absolute;
-  top: -62%;
-  left: 0;
-  width: 115%;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+  transform: skewY(-3deg);
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-btns {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-btns li {
   margin-right: 0.625rem;
@@ -259,6 +258,7 @@ a {
   font-weight: 700;
   transform: rotate(-45deg);
   transform-origin: center center;
+  transition: all 0.4s;
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-btns .colorTheme-btn::before {
   content: "";
@@ -268,6 +268,9 @@ a {
   top: 0;
   left: 0;
   border-radius: 1.875rem 0 0 1.875rem;
+}
+.intro-wrap .intro-inner .intro-bottom .colorTheme-btns .colorTheme-btn:hover {
+  transform: rotate(130deg);
 }
 
 a {

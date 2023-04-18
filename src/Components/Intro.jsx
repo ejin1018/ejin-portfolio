@@ -55,7 +55,7 @@ const Intro = ()=>{
           </div>
         </section>
         <div className="intro-bottom">
-          <p className="colorTheme-here en">Choose Your Color!</p>
+          <p className="colorTheme-here en">choose the color<br/>you want!</p>
           <ul className="colorTheme-btns">
             <li>
               <Link to="/" className="deepGreen colorTheme-btn"></Link>
