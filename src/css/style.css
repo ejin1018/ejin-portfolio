@@ -207,6 +207,7 @@ a {
   position: fixed;
   bottom: 1.25rem;
   left: 1.25rem;
+  z-index: 1;
 }
 .intro-wrap .intro-inner .intro-bottom .colorTheme-here {
   font-size: 0.8rem;
@@ -1120,27 +1121,36 @@ a {
     transform: none;
   }
   .intro-wrap .intro-inner .intro-contents .intro-sayhi {
-    width: 100%;
-    height: 85%;
     position: absolute;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
+    z-index: 1;
   }
   .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
+    transform: skew(0);
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan .qmark-l {
+    left: -1rem;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan .qmark-r {
+    bottom: 2.75rem;
+    right: 5.7rem;
   }
   .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-buttons {
-    transform: skewY(-7deg);
     margin-top: 1.2rem;
   }
   .intro-wrap .intro-inner .intro-contents .intro-photo {
+    width: 15rem;
+    height: 20rem;
     position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 15%;
+    left: auto;
+    right: 3%;
+  }
+  .intro-wrap .intro-inner .intro-bottom {
+    left: auto;
+    right: 1.25rem;
   }
   .about-wrap .about-inner .about-right-top .canvas-wrap {
     top: -85%;
