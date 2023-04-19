@@ -1121,8 +1121,13 @@ a {
   }
   .intro-wrap .intro-inner .intro-contents .intro-sayhi {
     width: 100%;
-    height: 100%;
+    height: 85%;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
   }
   .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan {
     font-size: 2.1rem;
