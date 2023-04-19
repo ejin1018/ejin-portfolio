@@ -70,7 +70,7 @@ export default function Scene() {
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
-                  <p className='work-desc-box-text'>25 %</p>
+                  <p className='work-desc-box-text'>25 % (팀 4 인)</p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
@@ -159,7 +159,7 @@ export default function Scene() {
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
-                  <p className='work-desc-box-text'>20%</p>
+                  <p className='work-desc-box-text'>20% (팀 5 인)</p>
                 </div>
               </div>
             </div>
@@ -324,7 +324,7 @@ export default function Scene() {
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
-                  <p className='work-desc-box-text'>50%</p>
+                  <p className='work-desc-box-text'>50% </p>
                 </div>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
