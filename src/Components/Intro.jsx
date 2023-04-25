@@ -15,7 +15,7 @@ const Intro = ()=>{
             <h2 className="intro-slogan">
               <span className="qmark-l bold-text en">&ldquo;</span>
               <span className="bold-text">목표</span>
-              로 향하는<br/>길을 이어주는<br/>프론트앤드 개발자
+              로 향하는<br/>길을 이어주는<br/>프론트엔드 개발자
               <span className="qmark-r bold-text en">&rdquo;</span>
               <br/><span className="bold-text">정이진</span> 
               입니다
