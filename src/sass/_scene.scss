@@ -111,12 +111,16 @@
     .work-content{
       margin-top: 1.5rem;
       .work-titles{
-        @include flexBetween;
         .work-title{
+          margin-bottom: 0.5rem;
           font-size: 2rem;
           font-weight: 700;
           word-break: keep-all;
           line-height: 1.125;
+          span{
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
         }
         .work-icons{
           svg{
