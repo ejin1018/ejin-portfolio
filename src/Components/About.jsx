@@ -59,7 +59,7 @@ const About = ()=>{
               </p>
               <p className="personal-info">
                 <span className="personal-info-title lsp-three">자격증</span>
-                <span className="personal-info-text">2023.04 SQL 개발자</span>
+                <span className="personal-info-text">SQL 개발자 (SQLD)</span>
               </p>
             </div>
           </div>
