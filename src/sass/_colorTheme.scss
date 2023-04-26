@@ -120,6 +120,11 @@
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
+      .slide-blur-box{
+        .work-slide-img-blur{
+          background: $second-color;
+        }
+      }
       .work-numbering{
         color: $normal-color;
       }
@@ -290,6 +295,11 @@
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
+      .slide-blur-box{
+        .work-slide-img-blur{
+          background: $second-color;
+        }
+      }
       .work-numbering{
         color: $normal-color;
       }
@@ -460,6 +470,11 @@
     }
     .work-slide{
       box-shadow: 0px 0px 24px 5px $second-color;
+      .slide-blur-box{
+        .work-slide-img-blur{
+          background: $second-color;
+        }
+      }
       .work-numbering{
         color: $normal-color;
       }

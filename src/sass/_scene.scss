@@ -96,8 +96,6 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: #ffffff80;
-        backdrop-filter: blur(6px);
       }
       .work-slide-video{
         width: 300px;
@@ -112,7 +110,7 @@
       margin-top: 1.5rem;
       .work-titles{
         .work-title{
-          margin-bottom: 0.5rem;
+          margin-top: 0.55rem;
           font-size: 2rem;
           font-weight: 700;
           word-break: keep-all;
@@ -123,10 +121,11 @@
           }
         }
         .work-icons{
+          opacity: 0.6;
           svg{
             width: 1.4rem;
             height: 1.4rem;
-            margin-left: 0.5rem;
+            margin-right: 0.5rem;
           }
         }
       }
