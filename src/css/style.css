@@ -610,16 +610,16 @@ a {
 .works-wrap .panel .work-content {
   margin-top: 1.5rem;
 }
-.works-wrap .panel .work-content .work-titles {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .works-wrap .panel .work-content .work-titles .work-title {
+  margin-bottom: 0.5rem;
   font-size: 2rem;
   font-weight: 700;
   word-break: keep-all;
   line-height: 1.125;
+}
+.works-wrap .panel .work-content .work-titles .work-title span {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .works-wrap .panel .work-content .work-titles .work-icons svg {
   width: 1.4rem;
