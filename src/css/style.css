@@ -707,7 +707,7 @@ a {
   color: #5D633F;
 }
 .deepGreen .nav-wrap .nav-list li .nav-btn-on {
-  color: #DB874B;
+  color: #E17858;
 }
 .deepGreen .intro-wrap .intro-back-rect {
   background: #F1EEEB;
@@ -717,7 +717,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-slogan {
-  color: #DB874B;
+  color: #E17858;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
   color: #F9F8F6;
@@ -732,7 +732,7 @@ a {
   background: #F9F8F6;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
-  fill: #DB874B;
+  fill: #E17858;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
   fill: #F9F8F6;
@@ -741,7 +741,7 @@ a {
   background: #F9F8F6;
 }
 .deepGreen .intro-wrap .intro-inner .intro-contents .intro-photo-line {
-  border: 1px solid #DB874B;
+  border: 1px solid #E17858;
 }
 .deepGreen .intro-wrap .intro-inner .intro-bottom .colorTheme-here {
   color: #5D633F;
@@ -761,7 +761,7 @@ a {
   transition: all 0.3s;
 }
 .deepGreen .abilities-wrap .abibox-title .abibox-title-back:hover {
-  -webkit-text-stroke: 1px #DB874B;
+  -webkit-text-stroke: 1px #E17858;
   -webkit-text-fill-color: transparent;
 }
 .deepGreen .abilities-wrap .abibox-title .abibox-icon-list li svg {
@@ -789,7 +789,7 @@ a {
   background: #F9F8F6;
 }
 .deepGreen .works-wrap .work-slide .work-slide-go-link {
-  box-shadow: 0px 0px 10px -1px #DB874B;
+  box-shadow: 0px 0px 10px -1px #E17858;
   background: #F9F8F6;
 }
 .deepGreen .works-wrap .work-slide .work-slide-go-link svg, .deepGreen .works-wrap .work-slide .work-slide-go-link p {
@@ -830,7 +830,7 @@ a {
   color: #255B8A;
 }
 .beigeNblue .nav-wrap .nav-list li .nav-btn-on {
-  color: #E17858;
+  color: #DB874B;
 }
 .beigeNblue .intro-wrap .intro-back-rect {
   background: #EBE7CF;
@@ -840,7 +840,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-slogan {
-  color: #E17858;
+  color: #DB874B;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link {
   color: #F3F0DF;
@@ -855,7 +855,7 @@ a {
   background: #F3F0DF;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link:hover .intro-pf-icon {
-  fill: #E17858;
+  fill: #DB874B;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-buttons .intro-pf-link .intro-pf-icon {
   fill: #F3F0DF;
@@ -864,10 +864,11 @@ a {
   background: #F3F0DF;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-contents .intro-photo-line {
-  border: 1px solid #E17858;
+  border: 1px solid #DB874B;
 }
 .beigeNblue .intro-wrap .intro-inner .intro-bottom .colorTheme-here {
-  color: #E17858;
+  color: #255B8A;
+  opacity: 0.7;
 }
 .beigeNblue .about-wrap .about-inner .about-promise {
   color: #255B8A;
@@ -883,7 +884,7 @@ a {
   transition: all 0.3s;
 }
 .beigeNblue .abilities-wrap .abibox-title .abibox-title-back:hover {
-  -webkit-text-stroke: 1px #E17858;
+  -webkit-text-stroke: 1px #DB874B;
   -webkit-text-fill-color: transparent;
 }
 .beigeNblue .abilities-wrap .abibox-title .abibox-icon-list li svg {
@@ -911,7 +912,7 @@ a {
   background: #F3F0DF;
 }
 .beigeNblue .works-wrap .work-slide .work-slide-go-link {
-  box-shadow: 0px 0px 10px -1px #E17858;
+  box-shadow: 0px 0px 10px -1px #DB874B;
   background: #F3F0DF;
 }
 .beigeNblue .works-wrap .work-slide .work-slide-go-link svg, .beigeNblue .works-wrap .work-slide .work-slide-go-link p {
@@ -989,7 +990,8 @@ a {
   border: 1px solid #DFB669;
 }
 .pinkNgold .intro-wrap .intro-inner .intro-bottom .colorTheme-here {
-  color: #DFB669;
+  color: #414141;
+  opacity: 0.7;
 }
 .pinkNgold .about-wrap .about-inner .about-promise {
   color: #414141;
@@ -1009,7 +1011,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 .pinkNgold .abilities-wrap .abibox-title .abibox-icon-list li svg {
-  fill: #DFB669;
+  fill: #414141;
 }
 .pinkNgold .abilities-wrap .abibox-content {
   margin-top: 1.563rem;
