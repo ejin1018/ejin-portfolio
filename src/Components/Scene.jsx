@@ -64,10 +64,12 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (PWA App)</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>3주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>25 % (팀 4 인)</p>
@@ -104,10 +106,12 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>apk</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>1주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
@@ -149,10 +153,12 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>4주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>20% (팀 5 인)</p>
@@ -191,14 +197,17 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>5주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>슬라이드 직접 구현, 크로스브라우징, 공공 API</p>
@@ -232,14 +241,17 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>2주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>php를 통해 CRUD 구현</p>
@@ -266,6 +278,7 @@ export default function Scene() {
               <div className='work-titles'>
                 <div className='work-icons'>
                   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Swiper</title><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.884 17.908a4.328 4.328 0 0 1-1.092 1.488 4.817 4.817 0 0 1-1.644.936c-.632.216-1.308.324-2.028.324s-1.368-.1-1.944-.3c-.576-.2-1.088-.464-1.536-.792s-.832-.704-1.152-1.128a6.563 6.563 0 0 1-.768-1.284l1.68-1.008c.144.336.332.66.564.972.232.312.5.588.804.828a3.697 3.697 0 0 0 2.328.792c.4 0 .788-.056 1.164-.168.376-.112.708-.28.996-.504.288-.224.52-.5.696-.828.176-.328.264-.716.264-1.164 0-.432-.084-.804-.252-1.116a2.955 2.955 0 0 0-.684-.84 5 5 0 0 0-1.032-.672c-.4-.2-.832-.412-1.296-.636a44.725 44.725 0 0 1-1.644-.816 7.592 7.592 0 0 1-1.488-1.008 4.752 4.752 0 0 1-1.068-1.332c-.272-.504-.408-1.092-.408-1.764 0-.56.104-1.116.312-1.668a4.474 4.474 0 0 1 .912-1.476c.4-.432.9-.784 1.5-1.056s1.3-.408 2.1-.408c.592 0 1.14.076 1.644.228a5.98 5.98 0 0 1 2.412 1.38c.304.288.552.568.744.84l-1.512 1.224a4.172 4.172 0 0 0-1.284-1.188 4.204 4.204 0 0 0-.924-.408 3.634 3.634 0 0 0-1.08-.156c-.464 0-.868.072-1.212.216a2.692 2.692 0 0 0-.876.576c-.24.24-.42.516-.54.828-.12.312-.18.628-.18.948 0 .4.088.748.264 1.044.176.296.424.572.744.828s.712.504 1.176.744c.464.24.984.488 1.56.744.64.288 1.22.588 1.74.9.52.312.96.652 1.32 1.02.36.368.636.784.828 1.248.192.464.288 1.008.288 1.632 0 .736-.132 1.396-.396 1.98z"/></svg>
                 </div>
                 <p className='work-title'>네스트호텔 리뉴얼</p>
               </div>
@@ -274,14 +287,17 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>4주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>바닐라 자바스크립트</p>
@@ -314,14 +330,17 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형) - 워드프레스</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>2주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>50% </p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>디자인을 제공받아 코딩한 프리랜서 작업물</p>
@@ -343,6 +362,7 @@ export default function Scene() {
             <div className='work-content'>
               <div className='work-titles'>
                 <div className='work-icons'>
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>jQuery</title><path d="M1.525 5.87c-2.126 3.054-1.862 7.026-.237 10.269.037.079.078.154.118.229.023.052.049.1.077.15.013.027.031.056.047.082.026.052.054.102.081.152l.157.266c.03.049.057.097.09.146.056.094.12.187.178.281.026.04.05.078.079.117a6.368 6.368 0 00.31.445c.078.107.156.211.24.315.027.038.058.076.086.115l.22.269c.028.03.055.067.084.099.098.118.202.233.306.35l.005.006a3.134 3.134 0 00.425.44c.08.083.16.165.245.245l.101.097c.111.105.223.209.34.309.002 0 .003.002.005.003l.057.05c.102.089.205.178.31.26l.125.105c.085.068.174.133.26.2l.137.105c.093.07.192.139.287.207.035.025.07.05.106.073l.03.023.28.185.12.08c.148.094.294.184.44.272.041.02.084.044.123.068.108.062.22.125.329.183.06.034.122.063.184.094.075.042.153.083.234.125a.324.324 0 01.056.023c.033.015.064.031.096.047.12.06.245.118.375.175.024.01.05.02.076.034.144.063.289.123.438.182.034.01.07.027.105.04.135.051.274.103.411.152l.05.018c.154.052.305.102.46.15.036.01.073.023.111.033.16.048.314.105.474.137 10.273 1.872 13.258-6.177 13.258-6.177-2.508 3.266-6.958 4.127-11.174 3.169-.156-.036-.312-.086-.47-.132a13.539 13.539 0 01-.567-.182l-.062-.024c-.136-.046-.267-.097-.4-.148a1.615 1.615 0 00-.11-.04c-.148-.06-.29-.121-.433-.184-.031-.01-.057-.024-.088-.036a23.44 23.44 0 01-.362-.17 1.485 1.485 0 01-.106-.052c-.094-.044-.188-.095-.28-.143a3.947 3.947 0 01-.187-.096c-.114-.06-.227-.125-.34-.187-.034-.024-.073-.044-.112-.066a15.922 15.922 0 01-.439-.27 2.107 2.107 0 01-.118-.078 6.01 6.01 0 01-.312-.207c-.035-.023-.067-.048-.103-.073a9.553 9.553 0 01-.295-.212c-.042-.034-.087-.066-.132-.1-.088-.07-.177-.135-.265-.208l-.118-.095a10.593 10.593 0 01-.335-.28.258.258 0 00-.037-.031l-.347-.316-.1-.094c-.082-.084-.166-.164-.25-.246l-.098-.1a9.081 9.081 0 01-.309-.323l-.015-.016c-.106-.116-.21-.235-.313-.355-.027-.03-.053-.064-.08-.097l-.227-.277a21.275 21.275 0 01-.34-.449C2.152 11.79 1.306 7.384 3.177 3.771m4.943-.473c-1.54 2.211-1.454 5.169-.254 7.508a9.111 9.111 0 00.678 1.133c.23.33.484.721.793.988.107.122.223.24.344.36l.09.09c.114.11.232.217.35.325l.016.013a9.867 9.867 0 00.414.342c.034.023.063.05.096.073.14.108.282.212.428.316l.015.009c.062.045.128.086.198.13.028.018.06.042.09.06.106.068.21.132.318.197.017.007.032.016.048.023.09.055.188.108.282.157.033.02.065.035.1.054.066.033.132.068.197.102l.032.014c.135.067.273.129.408.19.034.014.063.025.092.039.111.048.224.094.336.137.05.017.097.037.144.052.102.038.21.073.31.108l.14.045c.147.045.295.104.449.13C22.164 17.206 24 11.098 24 11.098c-1.653 2.38-4.852 3.513-8.261 2.628a8.04 8.04 0 01-.449-.13c-.048-.014-.09-.029-.136-.043-.104-.036-.211-.07-.312-.109l-.144-.054c-.113-.045-.227-.087-.336-.135-.034-.015-.065-.025-.091-.04-.14-.063-.281-.125-.418-.192l-.206-.107-.119-.06a5.673 5.673 0 01-.265-.15.62.62 0 01-.062-.035c-.106-.066-.217-.13-.318-.198-.034-.019-.065-.042-.097-.062l-.208-.136c-.144-.1-.285-.208-.428-.313-.032-.029-.063-.053-.094-.079-1.499-1.178-2.681-2.79-3.242-4.613-.59-1.897-.46-4.023.56-5.75m4.292-.147c-.909 1.334-.996 2.99-.37 4.46.665 1.563 2.024 2.79 3.608 3.37.065.025.128.046.196.07l.088.027c.092.03.185.063.28.084 4.381.845 5.567-2.25 5.886-2.704-1.043 1.498-2.792 1.857-4.938 1.335a4.85 4.85 0 01-.516-.16 6.352 6.352 0 01-.618-.254 6.53 6.53 0 01-1.082-.66c-1.922-1.457-3.113-4.236-1.859-6.5"/></svg>
                 </div>
                 <p className='work-title'>한탄만 해도 이득이 되는 모임, 한이득 아카이브</p>
               </div>
@@ -351,14 +371,17 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>4주</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
+                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>소모임 한이득의 행사, 작업물을 모아둔 사이트</p>

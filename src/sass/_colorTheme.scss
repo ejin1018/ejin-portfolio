@@ -1,3 +1,5 @@
+@charset 'utf-8';
+
 @mixin colors($normal-color,$base-color,$second-color,$point-color){
   background: $base-color;
   .nav-wrap{
@@ -146,6 +148,9 @@
       }
       .work-desc{
         color: $normal-color;
+        &-line{
+          background: $second-color;
+        }
       }
     }
     .swiper-pagination{
