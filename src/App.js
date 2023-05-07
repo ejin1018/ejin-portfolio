@@ -90,7 +90,7 @@ function App() {
   return (
     <>
       <Reset />
-      <div className='colorTheme deepGreen'>
+      <div className='colorTheme pinkNgold'>
         <Header />
         <Intro />
         <About />

@@ -41,7 +41,48 @@
   html,body{
     font-size: 14px !important;
   }
-
+  // intro
+  .intro-wrap{
+    .intro-back-rect{
+      top: -70%;
+    }
+    .intro-inner{
+      .intro-contents{
+        @include relativeZero;
+        display: block;
+        height: 100vh;
+        transform: none;
+        .intro-sayhi{
+          position: absolute;
+          top: 70%;
+          transform: translateY(-50%);
+          z-index: 1;
+          .intro-slogan{
+            font-size: 2.8rem;
+            .qmark-l{
+              left: -1.5rem;
+            }
+            .qmark-r{
+              bottom: 3.75rem;
+              right: -1.8rem;
+            }
+          }
+        }
+        .intro-photo{
+          width: 21rem;
+          height: 28rem;
+          position: absolute;
+          top: 15%;
+          left: auto;
+          right: 5%;
+        }
+      }
+      .intro-bottom{
+        left: auto;
+        right: 1.25rem;
+      }
+    }
+  }
   // abilities
   .abilities-wrap{
     .abilities-inner{

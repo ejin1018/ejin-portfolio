@@ -94,7 +94,7 @@ a {
 }
 .intro-wrap .intro-back-marquee {
   position: absolute;
-  top: 15%;
+  top: 12%;
   overflow: hidden;
   transform: skewY(-7deg);
 }
@@ -127,7 +127,7 @@ a {
   position: relative;
   top: 0;
   left: 0;
-  font-size: 2.8rem;
+  font-size: 3.3rem;
   line-height: 1.2;
   transform: skewY(-7deg);
 }
@@ -180,8 +180,8 @@ a {
   position: relative;
   top: 0;
   left: 0;
-  width: 22.5rem;
-  height: 30rem;
+  width: 25rem;
+  height: 33rem;
 }
 .intro-wrap .intro-inner .intro-photo > div {
   position: absolute;
@@ -1109,6 +1109,45 @@ a {
 @media screen and (max-width: 768px) {
   html, body {
     font-size: 14px !important;
+  }
+  .intro-wrap .intro-back-rect {
+    top: -70%;
+  }
+  .intro-wrap .intro-inner .intro-contents {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100vh;
+    transform: none;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan {
+    font-size: 2.8rem;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan .qmark-l {
+    left: -1.5rem;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-sayhi .intro-slogan .qmark-r {
+    bottom: 3.75rem;
+    right: -1.8rem;
+  }
+  .intro-wrap .intro-inner .intro-contents .intro-photo {
+    width: 21rem;
+    height: 28rem;
+    position: absolute;
+    top: 15%;
+    left: auto;
+    right: 5%;
+  }
+  .intro-wrap .intro-inner .intro-bottom {
+    left: auto;
+    right: 1.25rem;
   }
   .abilities-wrap .abilities-inner {
     flex-direction: column;
