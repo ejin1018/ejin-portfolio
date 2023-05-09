@@ -530,6 +530,7 @@ a {
 .works-wrap .panel .work-slide {
   width: 40%;
   padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.5019607843);
 }
 .works-wrap .panel .work-slide-img-box {
   position: relative;
