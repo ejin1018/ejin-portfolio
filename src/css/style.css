@@ -557,13 +557,17 @@ a {
   left: 0;
   width: 100%;
   height: 0%;
-  opacity: 1;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   transition: all 0.4s;
   overflow: hidden;
+  background: rgba(255, 255, 255, 0.5019607843);
 }
 .works-wrap .panel .work-slide-img-box .work-slide-go-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 1rem;
-  text-align: center;
   border-radius: 15px;
   cursor: pointer;
 }
@@ -580,6 +584,7 @@ a {
 .works-wrap .panel .work-slide-img-box .work-slide-go-link > p {
   font-size: 1rem;
   line-height: 1.2;
+  margin-left: 0.5rem;
 }
 .works-wrap .panel .work-slide-img-box:hover .work-slide-go {
   height: 100%;
@@ -610,7 +615,7 @@ a {
 .works-wrap .panel .work-content .work-titles .work-title {
   margin-top: 0.55rem;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   word-break: keep-all;
   line-height: 1.125;
 }
@@ -627,27 +632,21 @@ a {
   margin-right: 0.5rem;
 }
 .works-wrap .panel .work-content .work-desc {
-  display: flex;
-  align-items: normal;
-  justify-content: space-between;
-  margin-top: 1.8rem;
+  margin-top: 1rem;
 }
 .works-wrap .panel .work-content .work-desc-box {
-  max-width: 25%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
 }
 .works-wrap .panel .work-content .work-desc-box-title {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 0.625rem;
 }
 .works-wrap .panel .work-content .work-desc-box-text {
   word-break: keep-all;
   line-height: 1.45;
-}
-.works-wrap .panel .work-content .work-desc-line {
-  display: block;
-  width: 1px;
-  height: 65px;
+  margin-left: 0.625rem;
 }
 
 a {
@@ -790,9 +789,6 @@ a {
 .deepGreen .works-wrap .work-slide .work-numbering {
   color: #5D633F;
 }
-.deepGreen .works-wrap .work-slide .work-slide-go {
-  background: #F9F8F6;
-}
 .deepGreen .works-wrap .work-slide .work-slide-go-link {
   box-shadow: 0px 0px 10px -1px #E17858;
   background: #F9F8F6;
@@ -916,9 +912,6 @@ a {
 .beigeNblue .works-wrap .work-slide .work-numbering {
   color: #255B8A;
 }
-.beigeNblue .works-wrap .work-slide .work-slide-go {
-  background: #F3F0DF;
-}
 .beigeNblue .works-wrap .work-slide .work-slide-go-link {
   box-shadow: 0px 0px 10px -1px #DB874B;
   background: #F3F0DF;
@@ -1041,9 +1034,6 @@ a {
 }
 .pinkNgold .works-wrap .work-slide .work-numbering {
   color: #414141;
-}
-.pinkNgold .works-wrap .work-slide .work-slide-go {
-  background: #FFF4F2;
 }
 .pinkNgold .works-wrap .work-slide .work-slide-go-link {
   box-shadow: 0px 0px 10px -1px #DFB669;
