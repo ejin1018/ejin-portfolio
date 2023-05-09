@@ -63,8 +63,8 @@
         overflow: hidden;
         background: #ffffff80;
         &-link{
+          @include flexCenter;
           padding: 1rem 1rem;
-          text-align: center;
           border-radius: 15px;
           cursor: pointer;
           > svg{
@@ -80,6 +80,7 @@
           > p{
             font-size: 1rem;
             line-height: 1.2;
+            margin-left: 0.5rem;
           }
         }
       }
@@ -113,7 +114,7 @@
         .work-title{
           margin-top: 0.55rem;
           font-size: 2rem;
-          font-weight: 700;
+          font-weight: 600;
           word-break: keep-all;
           line-height: 1.125;
           span{
@@ -131,26 +132,20 @@
         }
       }
       .work-desc{
-        display: flex;
-        align-items: normal;
-        justify-content: space-between;
-        margin-top: 1.8rem;
+        margin-top: 1rem;
         &-box{
-          max-width: 25%;
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.25rem;
           &-title{
             font-size: 1.1rem;
             font-weight: 600;
-            margin-bottom: 0.625rem;
           }
           &-text{
             word-break: keep-all;
             line-height: 1.45;
+            margin-left: 0.625rem;
           }
-        }
-        &-line{
-          display: block;
-          width: 1px;
-          height: 65px;
         }
       }
     }

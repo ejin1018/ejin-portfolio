@@ -64,12 +64,10 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (PWA App)</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>3주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>25 % (팀 4 인)</p>
@@ -106,12 +104,10 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>apk</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>1주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
@@ -153,12 +149,10 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>4주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>20% (팀 5 인)</p>
@@ -197,17 +191,14 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>5주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>슬라이드 직접 구현, 크로스브라우징, 공공 API</p>
@@ -241,17 +232,14 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>2주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>php를 통해 CRUD 구현</p>
@@ -287,17 +275,14 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>4주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>바닐라 자바스크립트</p>
@@ -330,17 +315,14 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형) - 워드프레스</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>2주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>50% </p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>디자인을 제공받아 코딩한 프리랜서 작업물</p>
@@ -371,17 +353,14 @@ export default function Scene() {
                   <p className='work-desc-box-title'>배포매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>작업 기간</p>
                   <p className='work-desc-box-text'>4주</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100%</p>
                 </div>
-                <span className='work-desc-line'></span>
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>소모임 한이득의 행사, 작업물을 모아둔 사이트</p>
