@@ -21,7 +21,7 @@ const Footer = ()=>{
           <p className="en footer-box-title">Remember! My-</p>
           <Link to="/" className="en footer-box-text nav-btn">Intro</Link>
           <Link to="/" className="en footer-box-text nav-btn">About</Link>
-          <Link to="/" className="en footer-box-text nav-btn">Ability</Link>
+          <Link to="/" className="en footer-box-text nav-btn">Abilities</Link>
           <Link to="/" className="en footer-box-text nav-btn">Works</Link>
         </div>
       </div>
