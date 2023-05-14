@@ -637,17 +637,19 @@ a {
 }
 .works-wrap .panel .work-content .work-desc-box {
   display: flex;
-  align-items: center;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 .works-wrap .panel .work-content .work-desc-box-title {
+  min-width: 20%;
   font-size: 1.1rem;
   font-weight: 600;
+  line-height: 1.45;
+  word-break: keep-all;
 }
 .works-wrap .panel .work-content .work-desc-box-text {
   word-break: keep-all;
   line-height: 1.45;
-  margin-left: 0.625rem;
+  margin-left: 0.8rem;
 }
 
 a {

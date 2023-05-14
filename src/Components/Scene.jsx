@@ -61,7 +61,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (PWA App)</p>
                 </div>
                 <div className='work-desc-box'>
@@ -71,6 +71,14 @@ export default function Scene() {
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>25 % (팀 4 인)</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>기억나는 문제</p>
+                  <p className='work-desc-box-text'>서브 페이지 진입 후 다른 페이지로 이동하면 데이터가 불러와지지 않음.</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>문제 해결</p>
+                  <p className='work-desc-box-text'>useEffect 활용 문제, 뒤에 의존성 배열을 붙여 mount 시에만 불러왔기 때문에 발생! 배열을 지우고 업데이트시마다 데이터를 불러오도록 해결함.</p>
                 </div>
               </div>
             </div>
@@ -101,7 +109,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>apk</p>
                 </div>
                 <div className='work-desc-box'>
@@ -150,7 +158,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile</p>
                 </div>
                 <div className='work-desc-box'>
@@ -160,6 +168,14 @@ export default function Scene() {
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>100 %</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>기억나는 문제</p>
+                  <p className='work-desc-box-text'>모든 컴포넌트에 데이터가 필요해 같은 코드를 반복해야함</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>문제 해결</p>
+                  <p className='work-desc-box-text'>페이지별로 파일을 분류한 뒤 최상위 컴포넌트에서만 데이터를 불러옴. 필요 요소는 자식 컴포넌트로부터 emit으로 전달 받음.</p>
                 </div>
               </div>
             </div>
@@ -193,7 +209,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
                 <div className='work-desc-box'>
@@ -203,6 +219,14 @@ export default function Scene() {
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>본인 기여도</p>
                   <p className='work-desc-box-text'>20% (팀 5 인)</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>기억나는 문제</p>
+                  <p className='work-desc-box-text'>빠른 개발을 위해 부트스트랩을 사용했으나, 부트스트랩에 없는 색상과 단위를 사용해야했음</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>문제 해결</p>
+                  <p className='work-desc-box-text'>디자인에 맞는 클래스를 개발 &#40;예시: tkt-margin- &#40;	15,25,35 ... &#41; 로 마진 간격을 조절함&#41;</p>
                 </div>
               </div>
             </div>
@@ -237,7 +261,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
                 <div className='work-desc-box'>
@@ -251,6 +275,14 @@ export default function Scene() {
                 <div className='work-desc-box'>
                   <p className='work-desc-box-title'>특이사항</p>
                   <p className='work-desc-box-text'>슬라이드 직접 구현, 크로스브라우징, 공공 API</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>기억나는 문제</p>
+                  <p className='work-desc-box-text'>직접 반응형 슬라이드를 구현하던 중, 화면 조절 시 슬라이드 영역이 밀림.</p>
+                </div>
+                <div className='work-desc-box'>
+                  <p className='work-desc-box-title'>문제 해결</p>
+                  <p className='work-desc-box-text'>윈도우 사이즈를 감지해 변경된 슬라이드 영역의 크기를 내부 이미지마다 다시 부여함.</p>
                 </div>
               </div>
             </div>
@@ -276,7 +308,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
                 <div className='work-desc-box'>
@@ -321,7 +353,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
                 <div className='work-desc-box'>
@@ -359,7 +391,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형) - 워드프레스</p>
                 </div>
                 <div className='work-desc-box'>
@@ -399,7 +431,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'>PC, Mobile (반응형)</p>
                 </div>
                 <div className='work-desc-box'>
@@ -438,7 +470,7 @@ export default function Scene() {
               </div>
               <div className='work-desc'>
                 <div className='work-desc-box'>
-                  <p className='work-desc-box-title'>배포매체</p>
+                  <p className='work-desc-box-title'>배포 매체</p>
                   <p className='work-desc-box-text'></p>
                 </div>
                 <div className='work-desc-box'>
