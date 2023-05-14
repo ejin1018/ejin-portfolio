@@ -414,7 +414,6 @@ a {
 }
 .abilities-wrap .abilities-inner {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .abilities-wrap .abilities-inner .abilities-box {
