@@ -110,6 +110,16 @@
       }
     }
   }
+  .effort-wrap{
+    .effort-title{
+      color: $second-color;
+    }
+    .effort-text{
+      span{
+        color: $normal-color;
+      }
+    }
+  }
   .works-wrap{
     .works-back-text{
       color: $second-color;

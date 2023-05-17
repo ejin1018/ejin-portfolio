@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Intro from './Components/Intro';
 import About from './Components/About';
 import Abilities from './Components/Abilities';
+import Effort from './Components/Effort';
 import Footer from './Components/Footer';
 import Scene from './Components/Scene'
 import './App.css';
@@ -54,7 +55,7 @@ function App() {
           })
         }else if(index === 3 || index === 7){
           window.scrollTo({
-            top:sections[3].offsetTop,
+            top:sections[4].offsetTop,
             behavior:'smooth'
           })
         }
@@ -62,7 +63,6 @@ function App() {
     })
 
     window.addEventListener('scroll',function(){
-
       let nowY = window.scrollY;
       if(nowY < sections[1].offsetTop){
         menus.forEach((menu)=>{
@@ -95,6 +95,7 @@ function App() {
         <Intro />
         <About />
         <Abilities />
+        <Effort />
         <Scene />
         <Footer />
       </div>

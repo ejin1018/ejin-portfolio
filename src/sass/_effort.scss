@@ -1,0 +1,45 @@
+@import "utility";
+
+.effort-wrap{
+  margin-top: 10rem;
+  .effort-inner{
+    @include flexBetween;
+    .effort-left,.effort-right{
+      max-width: 46%;
+    }
+    .effort-title{
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 0.85;
+      transform: skewY(-7deg);
+    }
+    .effort-imgs{
+      @include relativeZero;
+      @include flexBetween;
+    }
+    .hand-imgs{
+      img{
+        max-width: 30%;
+        box-shadow: 0px 2px 7px #A1A1A1;
+      }
+    }
+    .note-imgs{
+      img{
+        max-width: 50%;
+      }
+    }
+    .effort-text{
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.5;
+      text-align: center;
+      word-break: keep-all;
+      span{
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
