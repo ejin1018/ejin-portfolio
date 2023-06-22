@@ -8,9 +8,9 @@ const Effort = ()=>{
         <div className="effort-left">
           <h3 className="effort-title en">Hand Writing</h3>
           <div className="effort-imgs hand-imgs">
-            <img src="/images/effort/hand-write0.JPG" alt="click 이벤트에 대해 공부한 손코딩 이미지입니다." />
-            <img src="/images/effort/hand-write1.JPG" alt="리액트 Props에 대해 공부한 손코딩 이미지입니다." />
-            <img src="/images/effort/hand-write2.JPG" alt="querySelectorAll과 forEach 에 대해 공부한 손코딩 이미지입니다." />
+            <img src="/images/effort/hand-write0.png" alt="click 이벤트에 대해 공부한 손코딩 이미지입니다." />
+            <img src="/images/effort/hand-write1.png" alt="리액트 Props에 대해 공부한 손코딩 이미지입니다." />
+            <img src="/images/effort/hand-write2.png" alt="querySelectorAll과 forEach 에 대해 공부한 손코딩 이미지입니다." />
           </div>
           <p className="effort-text">
             <span>취미가 손코딩인 개발자</span> <br/> 헷갈리는 개념은 아무것도 참고하지 않고 적을 수 있을 때까지 손코딩 해봅니다.
