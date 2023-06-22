@@ -1,34 +1,34 @@
 import React,{useRef} from "react";
-import { Canvas,useFrame, useLoader } from '@react-three/fiber';
-import { Environment } from "@react-three/drei";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+// import { Canvas,useFrame, useLoader } from '@react-three/fiber';
+// import { Environment } from "@react-three/drei";
+// import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
-const MacBook = ()=>{
-  useFrame(({clock})=>{
-    const a = clock.getElapsedTime();
-    ref.current.rotation.y = a;
-  })
-  const ref = useRef();
-  const gltf = useLoader(GLTFLoader,'./macbook/scene.gltf');
-  return <primitive object={gltf.scene} ref={ref}/>
-};
+// const MacBook = ()=>{
+//   useFrame(({clock})=>{
+//     const a = clock.getElapsedTime();
+//     ref.current.rotation.y = a;
+//   })
+//   const ref = useRef();
+//   const gltf = useLoader(GLTFLoader,'./macbook/scene.gltf');
+//   return <primitive object={gltf.scene} ref={ref}/>
+// };
 
 const About = ()=>{
-  const MacBookCam = (prop)=>{
-    console.log(prop)
-  }
+  // const MacBookCam = (prop)=>{
+  //   console.log(prop)
+  // }
   return(
     <section className='about-wrap'>
       <h2 className='hidden-title'>About - 자기소개</h2>
       <div className="about-inner">
         <div className="about-right">
           <div className="about-right-top">
-            <div className="canvas-wrap">
+            {/* <div className="canvas-wrap">
               <Canvas onCreated={MacBookCam} camera={{position:[0,0.15,0.6]}}>
                 <MacBook />
                 <Environment preset='dawn'/>
               </Canvas>
-            </div>
+            </div> */}
             <p className='about-promise'>
               문제에는 끈질기게 덤벼 해결해내는 <span className="bold-text">지구력</span>,<br/>
               유쾌한 성격과 리더십으로 모두의 입장을 이해하는 <span className="bold-text">분위기 메이커</span>입니다.<br/>
