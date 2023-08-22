@@ -93,6 +93,7 @@
     }
     .slide-blur-box{
       @include relativeZero;
+      min-height: 180px;
       .work-slide-img-blur{
         position: absolute;
         top: 0;

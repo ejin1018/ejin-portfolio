@@ -662,6 +662,7 @@ a {
   position: relative;
   top: 0;
   left: 0;
+  min-height: 180px;
 }
 .works-wrap .panel .slide-blur-box .work-slide-img-blur {
   position: absolute;
